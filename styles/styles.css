@@ -1,0 +1,94 @@
+/* IMPORTATION DES FONTS */
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../font/opensans-light-webfont.woff2') format('woff2'),
+         url('../font/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/opensans-regular-webfont.woff2') format('woff2'),
+         url('../font/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../font/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../font/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* STYLES CSS */
+
+/* HEADER */
+* {
+    margin:0;
+    padding:0;
+    color:white;
+    font-family:'open_sansregular';
+}
+
+#header {
+    background-color:#0A0A0A;
+    width:100%;
+    height:80px;
+    display:flex;
+    align-items: center;
+}
+
+#header>nav {
+    display:flex;
+    width:100%;
+}
+
+#header>nav>ul {
+    display:flex;
+}
+
+.left {
+    margin-left:5%;
+}
+
+.right {
+    position:absolute;
+    right:5%;
+}
+
+li {
+    list-style:none;
+    padding:30px;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+/* HOME */
+
+#home {
+    height:815px;
+    background: linear-gradient(to right, #00030B, 87%, #9A9C9F );
+}
+
+#home_left {
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left:13%;
+    text-align:left;
+}
