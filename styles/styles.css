@@ -65,7 +65,7 @@
 
 li {
     list-style:none;
-    padding:30px;
+    padding:29px;
 }
 
 a {
@@ -89,6 +89,41 @@ a:hover {
     display:flex;
     flex-direction:column;
     justify-content: center;
-    margin-left:13%;
     text-align:left;
+}
+
+#home_left_content {
+    margin:0% 0% 90px 20%;
+}
+
+#home p {
+    font-size:23px;
+}
+
+.home_space {
+    margin:0px 0px 25px 0px;
+}
+
+h1 {
+    font-weight:unset !important;
+    font-size:70px;
+}
+
+#surname {
+    margin-left: 65px;
+    margin-bottom:30px;
+}
+
+/* JOB */
+
+#job {
+    display:flex;
+    align-items: center;
+}
+
+#job>#home_rect {
+    width:60px;
+    height:5px;
+    background: linear-gradient(to right, #00030B, 85%, #9A9C9F );
+    margin-right:15px;
 }
