@@ -79,9 +79,12 @@ a:hover {
 /* HOME */
 
 #home {
-    height:815px;
-    background: linear-gradient(to right, #00030B, 87%, #9A9C9F );
+    height:855px;
+    background: linear-gradient(to right, #00030B, 88%, #9A9C9F );
+    display:flex;
 }
+
+/* HOME LEFT */
 
 #home_left {
     width:50%;
@@ -126,4 +129,18 @@ h1 {
     height:5px;
     background: linear-gradient(to right, #00030B, 85%, #9A9C9F );
     margin-right:15px;
+}
+
+/* HOME RIGHT */
+
+#home_right {
+    display:flex;
+    align-items: flex-end;
+    width:50%;
+}
+
+#home_right>img {
+    width:570px;
+    filter:brightness(0.5);
+    margin-left:5%;
 }

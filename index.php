@@ -1,5 +1,5 @@
 <?php
-include_once('header.html');
+include_once('includes/header.html');
 ?>
 
 <div id="home">
@@ -17,12 +17,12 @@ include_once('header.html');
     </div>
 
     <div id="home_right">
-
+        <img src="img/portraitdimret.png" alt="Portrait de face de Quentin Guillou">
     </div>
 </div>
 
 
 
 <?php
-include_once('footer.html');
+include_once('includes/footer.html');
 ?>
