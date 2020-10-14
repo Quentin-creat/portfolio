@@ -20,7 +20,20 @@ include_once('includes/header.html');
         <img src="img/portraitdimret.png" alt="Portrait de face de Quentin Guillou">
     </div>
 </div>
+<div id="about">
+    <div id="about_title">
+        <div id="about_title_rect" class="rect_style"></div>
+        <h1>ABOUT ME</h1>
+    </div>
+    <div id="about_content">
+        <div id="about_left">
+            <img src="img/portraitdim.jpg" alt="Autre portrait de face de Quentin Guillou">
+        </div>
+        <div id="about_right">
 
+        </div>
+    </div>
+</div>
 
 
 <?php
