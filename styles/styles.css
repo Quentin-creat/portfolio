@@ -26,6 +26,10 @@
 
 /* GENERAL */
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-weight:unset !important;
     text-align:center;
@@ -37,6 +41,14 @@ h1 {
     height:5px;
     background-color:white;
     margin-right:25px;
+}
+
+#about:target {
+    padding-top:80px;
+}
+
+#projects:target {
+    padding-top:80px;
 }
 
 /* STYLES CSS */
@@ -55,7 +67,7 @@ h1 {
     height:80px;
     display:flex;
     align-items: center;
-    position:fixed;
+    position:sticky;
     top:0;
     z-index:1;
 }
@@ -94,7 +106,7 @@ a:hover {
 /* HOME */
 
 #home {
-    height:830px;
+    height:740px;
     background: linear-gradient(to right, #00030B, 88%, #9A9C9F );
     display:flex;
 }
@@ -163,7 +175,7 @@ a:hover {
 /* ABOUT */
 
 #about {
-    height:860px;
+    height:740px;
     background-color: #191B25;
 }
 
@@ -181,7 +193,8 @@ a:hover {
 
 
 #about_content {
-    height:84%;
+    display:flex;
+    justify-content: space-around;
 }
 
 /* ABOUT_LEFT */
@@ -189,12 +202,68 @@ a:hover {
 #about_left {
     display:flex;
     justify-content:center;
-    align-items:flex-end;
-    width:50%;
-    height: 85%;
 }
 
 #about_left>img {
     height:560px;
-    margin-left:5%;
+}
+
+
+/* ABOUT_RIGHT */
+
+#about_right {
+    width:40%;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+#about_right h3 {
+    border-bottom:1px solid white;
+}
+
+#about_right #technologies #tech_images {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+
+#about_right #technologies #tech_images .technologie {
+    width:9%;
+    margin:3% 4% 0% 4%;
+}
+
+#about_right #technologies #tech_images img {
+    width:100%;
+}
+
+/* PROJECTS */
+
+#projects {
+    height:740px;
+    background-color:#3C3D4B;
+}
+
+#projects #projects_title_rect {
+    background: linear-gradient(to right, #3C3D4B, 85%, #9A9C9F );
+}
+
+
+/* CONTACT */
+
+#contact {
+    height:740px;
+    background-color:#191B25;
+}
+
+#contact #contact_title_rect {
+    background: linear-gradient(to right, #191B25, 85%, #9A9C9F );
+}
+
+/* FOOTER */
+
+#footer {
+    height:120px;
+    background-color: #0A0A0A;
 }
