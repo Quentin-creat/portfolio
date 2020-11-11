@@ -48,34 +48,34 @@ include_once('includes/header.html');
                 <h3>The technologies I use :</h3>
                 <div id="tech_images">
                     <div class="technologie first_tech">
-                        <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
+                        <img src="./img/SkillsSvg/010-github.svg" alt="Github">
                     </div>
                     <div class="technologie">
-                        <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
+                        <img src="./img/SkillsSvg/027-php.svg" alt="PHP">
                     </div>
                     <div class="technologie">
-                        <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
+                        <img src="./img/SkillsSvg/029-javascript.svg" alt="JAVASCRIPT">
                     </div>
                     <div class="technologie">
-                        <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
+                        <img src="./img/SkillsSvg/032-nodejs.svg" alt="NODEJS">
                     </div>
                     <div class="technologie">
-                        <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
+                        <img src="./img/SkillsSvg/005-python.svg" alt="PYTHON">
                     </div>
                     <div class="technologie first_tech">
-                        <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
+                        <img src="./img/SkillsSvg/021-mysql.svg" alt="MYSQL">
+                    </div>
+                    <div class="technologie">
+                        <img src="./img/SkillsSvg/030-html-5.svg" alt="HTML">
+                    </div>
+                    <div class="technologie">
+                        <img src="./img/SkillsSvg/031-css.svg" alt="CSS">
                     </div>
                     <div class="technologie">
                         <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
                     </div>
                     <div class="technologie">
-                        <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
-                    </div>
-                    <div class="technologie">
-                        <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
-                    </div>
-                    <div class="technologie">
-                        <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
+                        <img src="./img/SkillsSvg/016-c-1.svg" alt="C++">
                     </div>
                 </div>
             </div>
@@ -83,13 +83,13 @@ include_once('includes/header.html');
     </div>
 </div>
 <div id="projects">
-<div id="about_title">
+    <div id="about_title">
         <div id="projects_title_rect" class="rect_style"></div>
         <h1>MY PROJECTS</h1>
     </div>
 </div>
 <div id="contact">
-<div id="about_title">
+    <div id="about_title">
         <div id="contact_title_rect" class="rect_style"></div>
         <h1>CONTACT ME</h1>
     </div>
