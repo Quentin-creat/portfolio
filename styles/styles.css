@@ -48,6 +48,10 @@ h1 {
     padding-top: 80px;
 }
 
+#skills:target {
+    padding-top: 80px;
+}
+
 #projects:target {
     padding-top: 80px;
 }
@@ -363,26 +367,115 @@ a:hover {
     margin-left: -10vw;
 }
 
-/* PROJECTS */
+/* SKILLS */
 
-#projects {
+#skills {
     height: 740px;
     background-color: #191B25;
 }
 
-#projects #projects_title_rect {
+#skills #skills_title_rect {
     background: linear-gradient(to right, #191B25, 85%, #9A9C9F);
+}
+
+.skills .content {
+    margin-top:100px;
+}
+
+.skills .content .development-wrapper .skills-bar-container {
+    position: relative;
+    width: 65%;
+    list-style-type: none;
+    margin:0 auto;
+}
+
+.skills .content .development-wrapper .skills-bar-container li {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.skills .content .development-wrapper .skills-bar-container li .progressbar-title {
+    color: #3c3c3c;
+    margin-bottom: 5px;
+}
+
+.skills .content .development-wrapper .skills-bar-container li .progressbar-title h3 {
+    display: inline-block;
+}
+
+.skills .content .development-wrapper .skills-bar-container li .progressbar-title .percent {
+    position: absolute;
+    right: 20px;
+    font-size: 1.1em;
+}
+
+.skills .content .development-wrapper .skills-bar-container li .bar-container {
+    background: #ececec;
+    position: relative;
+    width: 100%;
+    height: 10px;
+}
+
+.skills .content .development-wrapper .skills-bar-container li .bar-container .progressbar {
+    background: #34495e;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+}
+
+.skills .content .tools-knowledge-wrapper {
+    width: 100%;
+}
+
+.skills .content .tools-knowledge-wrapper .tools-wrapper, .skills .content .tools-knowledge-wrapper .knowledge-wrapper {
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.skills .content .tools-knowledge-wrapper .tools-wrapper .title, .skills .content .tools-knowledge-wrapper .knowledge-wrapper .title {
+    color: #3c3c3c;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.skills .content .tools-knowledge-wrapper .tools-wrapper ul, .skills .content .tools-knowledge-wrapper .knowledge-wrapper ul {
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.skills .content .tools-knowledge-wrapper .tools-wrapper ul li, .skills .content .tools-knowledge-wrapper .knowledge-wrapper ul li {
+    color: #444;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.skills .content .tools-knowledge-wrapper .tools-wrapper ul li i, .skills .content .tools-knowledge-wrapper .knowledge-wrapper ul li i {
+    color: #27ae60;
+}
+
+/* PROJECTS */
+
+#projects {
+    height: 740px;
+    background-color: #3C3D4B;
+}
+
+#projects #projects_title_rect {
+    background: linear-gradient(to right, #3C3D4B, 85%, #9A9C9F);
 }
 
 /* CONTACT */
 
 #contact {
     height: 740px;
-    background-color: #0F0F0F;
+    background-color: #0C0C0C;
 }
 
 #contact #contact_title_rect {
-    background: linear-gradient(to right, #0F0F0F, 85%, #9A9C9F);
+    background: linear-gradient(to right, #0C0C0C, 85%, #9A9C9F);
 }
 
 /* FOOTER */
