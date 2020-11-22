@@ -347,7 +347,7 @@ a:hover {
 }
 
 .experience .content ul li:nth-child(even) .experience-content {
-    left: calc(-35vw - 25px);
+    left: -698px;
     -webkit-border-radius: 5px 0px 5px 5px;
     -moz-border-radius: 5px 0px 5px 5px;
     border-radius: 5px 0px 5px 5px;
