@@ -206,6 +206,36 @@ include_once('includes/header.html');
         <div id="contact_title_rect" class="rect_style"></div>
         <h1>CONTACT ME</h1>
     </div>
+
+    <div id="form_contact">
+        <form action="mail.php" method="POST">
+            <div>
+                <div id="intro">
+                    <h3>Get In Touch :</h3>
+                    <div class="input">
+                        <input type="text" id="name" name="name" required placeholder="Name">
+                    </div>
+                    <div class="input">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone">
+                    </div>
+                    <div class="input">
+                        <input type="email" id="email" name="email" required placeholder="Email">
+                    </div>
+                    <div class="input">
+                        <input type="text" id="subject" name="subject" required placeholder="Subject">
+                    </div>
+                </div>
+                <div id="content">
+                    <div class="input">
+                        <textarea id="email_content" name="content" required placeholder="Message" rows="14" cols="30"></textarea>
+                    </div>
+                </div>
+            </div>
+            <button>SEND MESSAGE</button>
+            <a href="mailto:quentin.guillou.var@gmail.com">quentin.guillou.var@gmail.com</a>
+        </form>
+    </div>
+
 </div>
 
 <?php
