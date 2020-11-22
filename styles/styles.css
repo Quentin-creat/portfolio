@@ -42,11 +42,12 @@ h1 {
 
 #about:target {
     padding-top: 80px;
-    height:800px;
+    height:930px;
 }
 
 #experience:target {
     padding-top: 80px;
+    /*height:800px;*/
 }
 
 #skills:target {
@@ -55,6 +56,7 @@ h1 {
 
 #projects:target {
     padding-top: 80px;
+    height:820px;
 }
 
 /* STYLES CSS */
@@ -467,15 +469,34 @@ a:hover {
     background: linear-gradient(to right, #3C3D4B, 85%, #9A9C9F);
 }
 
+#projects #projects_content {
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:70px;
+}
+
+#projects #projects_content .card h5{
+    color:black !important;
+}
+
+#projects #projects_content .card p {
+    color:black !important;
+}
+
+#projects #projects_content .card img {
+    width:62%;
+    margin:35px auto 0px auto;
+}
+
 /* CONTACT */
 
 #contact {
     height: 740px;
-    background-color: #0C0C0C;
+    background-color: #191B25;
 }
 
 #contact #contact_title_rect {
-    background: linear-gradient(to right, #0C0C0C, 85%, #9A9C9F);
+    background: linear-gradient(to right, #191B25, 85%, #9A9C9F);
 }
 
 /* FOOTER */

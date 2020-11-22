@@ -119,60 +119,86 @@ include_once('includes/header.html');
         <h1>MY DEV. SKILLS</h1>
     </div>
     <div class="content">
-    <div class="development-wrapper">
-      <ul class="skills-bar-container">
-        <li>
-          <div class="progressbar-title">
-            <h3>HTML5</h3>
-            <span class="percent" id="html-pourcent"></span>
-          </div>
-          <div class="bar-container" data-percent="95">
-            <span class="progressbar" id="progress-html"></span>
-          </div>
-        </li>
-        <li>
-          <div class="progressbar-title">
-            <h3>CSS / SASS</h3>
-            <span class="percent" id="css-pourcent"></span>
-          </div>
-          <div class="bar-container" data-percent="85">
-            <span class="progressbar" id="progress-css"></span>
-          </div>
-        </li>
-        <li>
-          <div class="progressbar-title">
-            <h3>JavaScript / jQuery</h3>
-            <span class="percent" id="javascript-pourcent"></span>
-          </div>
-          <div class="bar-container" data-percent="80">
-            <span class="progressbar" id="progress-javascript"></span>
-          </div>
-        </li>
-        <li>
-          <div class="progressbar-title">
-            <h3>PHP</h3>
-            <span class="percent" id="php-pourcent"></span>
-          </div>
-          <div class="bar-container" data-percent="65">
-            <span class="progressbar" id="progress-php"></span>
-          </div>
-        </li>
-        <li>
-          <div class="progressbar-title">
-            <h3>AngularJS</h3>
-            <span class="percent" id="angular-pourcent"></span>
-          </div>
-          <div class="bar-container" data-percent="70">
-            <span class="progressbar" id="progress-angular"></span>
-          </div>
-        </li>
-      </ul>
-    </div>
+        <div class="development-wrapper">
+            <ul class="skills-bar-container">
+                <li>
+                    <div class="progressbar-title">
+                        <h3>HTML5</h3>
+                        <span class="percent" id="html-pourcent"></span>
+                    </div>
+                    <div class="bar-container" data-percent="95">
+                        <span class="progressbar" id="progress-html"></span>
+                    </div>
+                </li>
+                <li>
+                    <div class="progressbar-title">
+                        <h3>CSS / SASS</h3>
+                        <span class="percent" id="css-pourcent"></span>
+                    </div>
+                    <div class="bar-container" data-percent="85">
+                        <span class="progressbar" id="progress-css"></span>
+                    </div>
+                </li>
+                <li>
+                    <div class="progressbar-title">
+                        <h3>JavaScript / jQuery</h3>
+                        <span class="percent" id="javascript-pourcent"></span>
+                    </div>
+                    <div class="bar-container" data-percent="80">
+                        <span class="progressbar" id="progress-javascript"></span>
+                    </div>
+                </li>
+                <li>
+                    <div class="progressbar-title">
+                        <h3>PHP</h3>
+                        <span class="percent" id="php-pourcent"></span>
+                    </div>
+                    <div class="bar-container" data-percent="65">
+                        <span class="progressbar" id="progress-php"></span>
+                    </div>
+                </li>
+                <li>
+                    <div class="progressbar-title">
+                        <h3>AngularJS</h3>
+                        <span class="percent" id="angular-pourcent"></span>
+                    </div>
+                    <div class="bar-container" data-percent="70">
+                        <span class="progressbar" id="progress-angular"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
 </section>
 <div id="projects">
     <div id="about_title">
         <div id="projects_title_rect" class="rect_style"></div>
         <h1>MY PROJECTS</h1>
+    </div>
+    <div id="projects_content">
+        <div class="card" style="width: 18rem;">
+            <img src="./img/ProjectsPictures/nodejs.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/ProjectsPictures/wordpress.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./img/ProjectsPictures/unreal.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
     </div>
 </div>
 <div id="contact">
