@@ -66,8 +66,11 @@ h1 {
 * {
     margin: 0;
     padding: 0;
-    color: white !important;
     font-family: 'open_sansregular';
+}
+
+#index {
+    color:white;
 }
 
 #header {
@@ -106,6 +109,7 @@ nav li {
 
 nav a {
     text-decoration: none;
+    color:white !important;
 }
 
 a:hover {
@@ -374,6 +378,7 @@ a:hover {
 #skills {
     height: 740px;
     background-color: #191B25;
+    color:white;
 }
 
 #skills #skills_title_rect {
@@ -396,8 +401,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.skills .content .development-wrapper .skills-bar-container li .progressbar-title {
-    color: #3c3c3c;
+.skills .content .development-wrapper .skills-bar-container li .progressbar-title { 
     margin-bottom: 5px;
 }
 
@@ -574,4 +578,41 @@ a:hover {
 #footer>a{
     margin-top:20px;
     text-align: center;
+}
+
+
+/* PAGES PROJETS */
+
+#project_content {
+    background-color:#F0F0F0;
+    color:black !important;
+    display:flex;
+    justify-content: space-around;
+    height:79vh;
+    align-items:center;
+}
+
+#project_content #project_img img {
+    width:200px;
+}
+
+#project_text_content {
+    padding:78px;
+    width:55%;
+}
+
+#project_img {
+    margin-left:10%;
+}
+
+.project_node {
+    border:7px solid #88CC89;
+}
+
+.project_unreal {
+    border:7px solid black;
+}
+
+.project_wordpress {
+    border:7px solid #00769d;
 }
