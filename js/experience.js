@@ -1,65 +1,27 @@
-$(document).ready(function () {
-    // Main variables
-    var $aboutTitle = $('.about-myself .content h2');
-    var $developmentWrapper = $('.development-wrapper');
-    var developmentIsVisible = false;
+let observer = new IntersectionObserver(function (observables) {
 
+    observables.forEach(function (observable) {
 
-    /* ####### HERO SECTION ####### */
-
-    $('.hero .content .header').delay(500).animate({
-        'opacity': '1',
-        'top': '50%'
-    }, 1000);
-
-
-    $(window).scroll(function () {
-
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-        /* ##### EXPERIENCE SECTION #### */
-
-        // Check the location of each element hidden */
-        $('.experience .content .hidden').each(function (i) {
-
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-
-            /* If the object is completely visible in the window, fadeIn it */
-            if (bottom_of_window > bottom_of_object) {
-
-                $(this).animate({
-                    'opacity': '1',
-                    'margin-left': '0'
-                }, 600);
-            }
-        });
-        /*###### SKILLS SECTION ######*/
-
-        var middle_of_developmentWrapper = $developmentWrapper.offset().top + $developmentWrapper.outerHeight() / 2;
-
-        if ((bottom_of_window > middle_of_developmentWrapper) && (developmentIsVisible == false)) {
-
-            $('.skills-bar-container li').each(function () {
-
-                var $barContainer = $(this).find('.bar-container');
-                var dataPercent = parseInt($barContainer.data('percent'));
-                var elem = $(this).find('.progressbar');
-                var percent = $(this).find('.percent');
-                var width = 0;
-
-                var id = setInterval(frame, 15);
-
-                function frame() {
-                    if (width >= dataPercent) {
-                        clearInterval(id);
-                    } else {
-                        width++;
-                        elem.css("width", width + "%");
-                        percent.html(width + " %");
-                    }
-                }
-            });
-            developmentIsVisible = true;
+        if (observable.intersectionRatio > 0.5) {
+            observable.target.classList.remove('not-visible')
+        } else {
+            observable.target.classList.add('not-visible')
         }
+    })
 
-    }); // -- End window scroll --
-});
+}, {
+
+    threshold: [0.5]
+
+})
+
+let experiences = document.querySelectorAll('.experience-content')
+
+experiences.forEach(function (experience) {
+
+    experience.classList.add('not-visible')
+    observer.observe(experience)
+
+})
+
+

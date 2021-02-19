@@ -298,11 +298,6 @@ a:hover {
     border: 4px solid #f5f5f5;
 }
 
-.experience .content ul li .hidden {
-    opacity: 0;
-    margin-left: 10vw;
-}
-
 .experience .content ul li .experience-content {
     background: #f5f5f5;
     position: relative;
@@ -365,13 +360,24 @@ a:hover {
     width: 50px;
 }
 
-.experience .content ul li:nth-child(odd) .hidden {
-    margin-left: 10vw;
+/* animation */
+
+.experience-content {
+    transform:translateX(0);
+    opacity:1;
+    transition:transform 0.4s, opacity 0.4s;
 }
 
-.experience .content ul li:nth-child(even) .hidden {
-    margin-left: -10vw;
+.experience-content.exp-droite.not-visible {
+    transform:translateX(50px);
+    opacity: 0;
 }
+
+.experience-content.exp-gauche.not-visible {
+    transform:translateX(-100px);
+    opacity: 0;
+}
+
 
 /* SKILLS */
 
