@@ -27,7 +27,7 @@ experiences.forEach(function (experience) {
 
 let skillsObserver = new IntersectionObserver(function (observables) {
 
-    observables.forEach(function (observable) {
+    observables.forEach(function () {
 
         $(document).ready(function () {
             // Main variables
@@ -81,6 +81,7 @@ let skillsObserver = new IntersectionObserver(function (observables) {
     })
 
 }, {
+    threshold: [0.5]
 })
 
 let skills = document.querySelectorAll('.skills')
