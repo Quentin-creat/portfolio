@@ -1,5 +1,5 @@
 <?php
-include_once('../includes/header.html');
+include_once('./includes/header.html');
 ?>
 
 <div id="project_content">
@@ -24,5 +24,5 @@ include_once('../includes/header.html');
 </div>
 
 <?php
-include_once('../includes/footer.html');
+include_once('./includes/footer.html');
 ?>
