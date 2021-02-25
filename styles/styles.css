@@ -76,7 +76,6 @@ h1 {
 #header {
     background-color: #0A0A0A;
     width: 100%;
-    height: 80px;
     display: flex;
     align-items: center;
     position: sticky;
@@ -119,9 +118,9 @@ a:hover {
 /* HOME */
 
 #home {
-    height: 740px;
     background: linear-gradient(to right, #00030B, 88%, #9A9C9F);
     display: flex;
+    height:80%;
 }
 
 /* HOME LEFT */
@@ -188,7 +187,6 @@ a:hover {
 /* ABOUT */
 
 #about {
-    height: 740px;
     background-color: #191B25;
 }
 
@@ -207,6 +205,8 @@ a:hover {
 #about_content {
     display: flex;
     justify-content: space-around;
+    height:79%;
+    padding-top:4%;
 }
 
 /* ABOUT_LEFT */
@@ -217,7 +217,7 @@ a:hover {
 }
 
 #about_left>img {
-    height: 560px;
+    height: 80%;
 }
 
 /* ABOUT_RIGHT */
@@ -227,6 +227,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height:80%;
 }
 
 #about_right h3 {
@@ -382,7 +383,6 @@ a:hover {
 /* SKILLS */
 
 #skills {
-    height: 740px;
     background-color: #191B25;
     color:white;
 }
@@ -399,10 +399,11 @@ a:hover {
     position: relative;
     width: 65%;
     list-style-type: none;
-    margin:0 auto;
+    margin:0px auto 0px auto;
+    padding-bottom:85px;
 }
 
-.skills .content .development-wrapper .skills-bar-container li {
+.skills .content .development-wrapper .skills-bar-container li:not(:last-child) {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -471,7 +472,6 @@ a:hover {
 /* PROJECTS */
 
 #projects {
-    height: 740px;
     background-color: #3C3D4B;
 }
 
@@ -501,7 +501,6 @@ a:hover {
 /* CONTACT */
 
 #contact {
-    height: 740px;
     background-color: #191B25;
 }
 
@@ -561,7 +560,6 @@ a:hover {
 /* FOOTER */
 
 #footer {
-    height: 120px;
     background-color: #0A0A0A;
     display:flex;
     flex-direction: column;
