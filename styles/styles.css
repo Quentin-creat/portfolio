@@ -42,12 +42,10 @@ h1 {
 
 #about:target {
     padding-top: 80px;
-    height:930px;
 }
 
 #experience:target {
     padding-top: 80px;
-    /*height:800px;*/
 }
 
 #skills:target {
@@ -56,8 +54,12 @@ h1 {
 
 #projects:target {
     padding-top: 80px;
-    height:820px;
 }
+
+#contact:target {
+    padding-top: 80px;
+}
+
 
 /* STYLES CSS */
 
@@ -75,9 +77,6 @@ h1 {
 
 #header {
     background-color: #0A0A0A;
-    width: 100%;
-    display: flex;
-    align-items: center;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -85,7 +84,6 @@ h1 {
 
 #header>nav {
     display: flex;
-    width: 100%;
 }
 
 #header>nav>ul {
@@ -400,7 +398,7 @@ a:hover {
     width: 65%;
     list-style-type: none;
     margin:0px auto 0px auto;
-    padding-bottom:85px;
+    padding-bottom:8%;
 }
 
 .skills .content .development-wrapper .skills-bar-container li:not(:last-child) {
@@ -483,6 +481,7 @@ a:hover {
     display:flex;
     justify-content:space-evenly;
     margin-top:70px;
+    padding-bottom:13%;
 }
 
 #projects #projects_content .card h5{
@@ -511,21 +510,21 @@ a:hover {
 #contact #form_contact form {
     display:flex;
     flex-direction:column;
+    padding-bottom:1%;
 }
 
 #contact #form_contact form>div{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top:10px;
-    height:500px;
+}
+
+#contact #form_contact form div #intro {
+    margin-left:4%;
 }
 
 #contact #form_contact form .input {
     margin:50px 0px 50px 0px;
-}
-
-#contact #form_contact form div #intro {
-    margin-left:120px;
 }
 
 #contact #form_contact form .input input {
@@ -545,7 +544,7 @@ a:hover {
 
 #contact #form_contact form button {
     width:17%;
-    margin-left:42.5%;
+    margin:0 auto;
     padding: 13px 0px 13px 0px;
     background-color:orange;
     border-radius:30px;
@@ -553,8 +552,7 @@ a:hover {
 }
 
 #contact #form_contact form a {
-    text-align:center;
-    margin-left:3%;
+    margin:0 auto;
 }
 
 /* FOOTER */
