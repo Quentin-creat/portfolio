@@ -8,13 +8,13 @@ include_once('includes/header.html');
     <div id="home">
         <div id="home_left">
             <div id="home_left_content">
-                <p id="intro" class="home_space">Hello, My Name Is</p>
+                <p id="intro" class="home_space">Bonjour, je m'appelle</p>
                 <h1 id="name">QUENTIN</h1>
                 <h1 id="surname" class="home_space">GUILLOU</h1>
 
                 <div id="job" class="home_space">
                     <div id="home_rect"></div>
-                    <p>Junior full stack developer</p>
+                    <p>Développeur junior full stack</p>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@ include_once('includes/header.html');
     <div id="about">
         <div id="about_title">
             <div id="about_title_rect" class="rect_style"></div>
-            <h1>ABOUT ME</h1>
+            <h1>À PROPOS</h1>
         </div>
         <div id="about_content">
             <div id="about_left">
@@ -34,21 +34,24 @@ include_once('includes/header.html');
             </div>
             <div id="about_right">
                 <div id="who_am_i">
-                    <h3>Who am I : </h3>
+                    <h3>En quelques mots : </h3>
                     <br>
-                    <p>My name is Quentin Guillou, I'm a french junior
-                        developer for now, I am passionnate and dedicated to
-                        my work, I have now the basics skills to build operating
-                        web applications, websites and softwares.</p>
+                    <p> Je m'appelle Quentin Guillou, je suis un développeur
+                        junior pour le moment, et j'aspire à devenir développeur full stack.
+                        Je suis passionné et dédié à mon travail et je possède maintenant
+                        les compétences basiques permettant de créer des applications web fonctionnels
+                        ainsi que des site web ou des logiciels.
+                    </p>
                     <br>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                         sed do eiusm tempor incididunt ut labore et dolore
                         magna aliqua Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit.</p>
+                        adipisicing elit.
+                    </p>
                 </div>
                 <br><br>
                 <div id="technologies">
-                    <h3>The technologies I use :</h3>
+                    <h3>Mes outils :</h3>
                     <div id="tech_images">
                         <div class="technologie first_tech">
                             <img src="./img/SkillsSvg/010-github.svg" alt="Github">
@@ -119,7 +122,7 @@ include_once('includes/header.html');
     <section id="skills" class="skills">
         <div id="about_title">
             <div id="skills_title_rect" class="rect_style"></div>
-            <h1>MY DEV. SKILLS</h1>
+            <h1>MES COMPETENCES</h1>
         </div>
         <div class="content">
             <div class="development-wrapper">
@@ -135,7 +138,7 @@ include_once('includes/header.html');
                     </li>
                     <li>
                         <div class="progressbar-title">
-                            <h3>CSS / SASS</h3>
+                            <h3>CSS</h3>
                             <span class="percent" id="css-pourcent"></span>
                         </div>
                         <div class="bar-container" data-percent="85">
@@ -175,7 +178,7 @@ include_once('includes/header.html');
     <div id="projects">
         <div id="about_title">
             <div id="projects_title_rect" class="rect_style"></div>
-            <h1>MY PROJECTS</h1>
+            <h1>MES PROJETS</h1>
         </div>
         <div id="projects_content">
             <div class="card" style="width: 18rem;">
@@ -207,14 +210,14 @@ include_once('includes/header.html');
     <div id="contact">
         <div id="about_title">
             <div id="contact_title_rect" class="rect_style"></div>
-            <h1>CONTACT ME</h1>
+            <h1>ME CONTACTER</h1>
         </div>
 
         <div id="form_contact">
             <form action="mail.php" method="POST">
                 <div>
                     <div id="intro">
-                        <h3>Get In Touch :</h3>
+                        <h3>Prendre contact :</h3>
                         <div class="input">
                             <input type="text" id="name" name="name" required placeholder="Name">
                         </div>
@@ -234,7 +237,7 @@ include_once('includes/header.html');
                         </div>
                     </div>
                 </div>
-                <button>SEND MESSAGE</button>
+                <button>Envoyer</button>
                 <a href="mailto:quentin.guillou.var@gmail.com">quentin.guillou.var@gmail.com</a>
             </form>
         </div>
