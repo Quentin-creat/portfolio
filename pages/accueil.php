@@ -1,10 +1,8 @@
-<div id="index">
 <?php
-include_once('includes/header.html');
-?>
+    include_once('includes/header.html');
+    ?>
 
-
-
+<div id="index">
     <div id="home">
         <div id="home_left">
             <div id="home_left_content">
@@ -186,7 +184,7 @@ include_once('includes/header.html');
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-nodeJS" class="btn btn-primary">Go somewhere</a>
+                    <a href="../index.php?action=projet-nodeJS" class="btn btn-primary">Détails</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -194,7 +192,7 @@ include_once('includes/header.html');
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-wordpress" class="btn btn-primary">Go somewhere</a>
+                    <a href="../index.php?action=projet-wordpress" class="btn btn-primary">Détails</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -202,7 +200,7 @@ include_once('includes/header.html');
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-unrealEngine" class="btn btn-primary">Go somewhere</a>
+                    <a href="../index.php?action=projet-unrealEngine" class="btn btn-primary">Détails</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -210,7 +208,7 @@ include_once('includes/header.html');
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-nodeJS" class="btn btn-primary">Go somewhere</a>
+                    <a href="../index.php?action=projet-nodeJS" class="btn btn-primary">Détails</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -218,7 +216,7 @@ include_once('includes/header.html');
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-wordpress" class="btn btn-primary">Go somewhere</a>
+                    <a href="../index.php?action=projet-wordpress" class="btn btn-primary">Détails</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -226,7 +224,7 @@ include_once('includes/header.html');
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-unrealEngine" class="btn btn-primary">Go somewhere</a>
+                    <a href="../index.php?action=projet-unrealEngine" class="btn btn-primary">Détails</a>
                 </div>
             </div>
         </div>
@@ -267,8 +265,7 @@ include_once('includes/header.html');
         </div>
 
     </div>
-
+</div>
 <?php
 include_once('includes/footer.html');
 ?>
-</div>
