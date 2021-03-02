@@ -1,6 +1,6 @@
 <?php
-    include_once('includes/header.html');
-    ?>
+include_once('includes/header.html');
+?>
 
 <div id="index">
     <div id="home">
@@ -236,26 +236,40 @@
         </div>
 
         <div id="form_contact">
-            <form action="mail.php" method="POST">
+            <form action="index.php?action=sendMail" method="POST">
                 <div>
                     <div id="intro">
                         <h3>Prendre contact :</h3>
+                        <?php
+
+                            if (isset($_GET['action']) && !empty($_GET['action'])) {
+                                if ($_GET['action'] === 'successMail') {
+                                    echo '<p class="mailMessage" id="success">Votre message à bien été envoyé</p>';
+                                } else {
+                                    echo '<p class="mailMessage" id="error">Erreur, votre message n\'a pas pu être envoyé !</p>';
+                                }
+                            }
+
+                        ?>
                         <div class="input">
-                            <input type="text" id="name" name="name" required placeholder="Name">
+                            <input type="text" id="name" name="name" required placeholder="Name" value="quentin">
                         </div>
                         <div class="input">
-                            <input type="tel" id="phone" name="phone" placeholder="Phone">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone" value="0646581005">
                         </div>
                         <div class="input">
-                            <input type="email" id="email" name="email" required placeholder="Email">
+                            <input type="email" id="email" name="email" required placeholder="Email" value="quentin@example.com">
                         </div>
                         <div class="input">
-                            <input type="text" id="subject" name="subject" required placeholder="Subject">
+                            <input type="text" id="subject" name="subject" required placeholder="Subject" value="sujet">
                         </div>
                     </div>
                     <div id="content">
                         <div class="input">
-                            <textarea id="email_content" name="content" required placeholder="Message" rows="14" cols="30"></textarea>
+                            <textarea id="email_content" name="content" required placeholder="Message" rows="14" cols="30" value="message test"></textarea>
+                        </div>
+                        <div class="g-recaptcha" data-sitekey="6Ldgv24aAAAAAGiqz0nwViDk8rvSK5QWKB1Ai96X">
+
                         </div>
                     </div>
                 </div>

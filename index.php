@@ -12,6 +12,9 @@ if (isset($_GET['action'])) {
         case 'projet-unrealEngine':
             include './pages/projet_unrealEngine.php';
             break;
+        case 'sendMail':
+            include './controller/mail.php';
+            break;
         default:
             include('./pages/accueil.php');
     }

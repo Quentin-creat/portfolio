@@ -519,11 +519,11 @@ a:hover {
 }
 
 .card .btn {
-    margin-left:29%;
+    margin-left:20%;
     text-decoration:none;
     color:white;
     border:1px solid black;
-    padding:5px 10px;
+    padding:5px 30px;
     border-radius:10px;
 }
 
@@ -591,6 +591,16 @@ a:hover {
     margin: 0 auto;
 }
 
+#contact .mailMessage {
+    margin-top:10px;
+}
+
+#contact #success {
+    color:rgb(61, 99, 59);
+}
+#contact #error {
+    color:rgb(109, 52, 52);
+}
 /* FOOTER */
 
 #footer {
