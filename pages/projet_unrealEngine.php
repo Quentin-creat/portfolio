@@ -1,10 +1,10 @@
 <?php
-include_once('./includes/header.html');
+include_once('../includes/header.html');
 ?>
 
 <div id="project_content">
     <div id="project_img">
-        <img src="../img/ProjectsPictures/unreal.png">
+        <img src="../img/ProjectsPictures/unreal.svg">
     </div>
     <div id="project_text_content" class="project_unreal">
         <h1>CECI EST UN TITRE</h1>
@@ -24,5 +24,5 @@ include_once('./includes/header.html');
 </div>
 
 <?php
-include_once('./includes/footer.html');
+include_once('../includes/footer.html');
 ?>
