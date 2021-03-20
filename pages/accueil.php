@@ -41,45 +41,28 @@ include_once('includes/header.html');
                         ainsi que des site web ou des logiciels.
                     </p>
                     <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusm tempor incididunt ut labore et dolore
-                        magna aliqua Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit.
+                    <p>Employé motivé et passionné, faisant preuve d'esprit d'équipe 
+                    tout en étant parfaitement autonome.
                     </p>
                 </div>
                 <br><br>
                 <div id="technologies">
                     <h3>Mes outils :</h3>
                     <div id="tech_images">
-                        <div class="technologie first_tech">
-                            <img src="./img/SkillsSvg/010-github.svg" alt="Github">
-                        </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/027-php.svg" alt="PHP">
-                        </div>
-                        <div class="technologie">
-                            <img src="./img/SkillsSvg/029-javascript.svg" alt="JAVASCRIPT">
-                        </div>
-                        <div class="technologie">
-                            <img src="./img/SkillsSvg/032-nodejs.svg" alt="NODEJS">
-                        </div>
-                        <div class="technologie">
-                            <img src="./img/SkillsSvg/005-python.svg" alt="PYTHON">
+                            <img src="./img/SkillsSvg/visual-studio-code.png" alt="Logo de l'IDE Visual studio code">
                         </div>
                         <div class="technologie first_tech">
-                            <img src="./img/SkillsSvg/021-mysql.svg" alt="MYSQL">
+                            <img src="./img/SkillsSvg/git.png" alt="Logo du logiciel de gestion de version Git">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/030-html-5.svg" alt="HTML">
+                            <img src="./img/SkillsSvg/010-github.svg" alt="Logo de la plateforme GitHub">
+                        </div>
+                        <div class="technologie first_tech">
+                            <img src="./img/SkillsSvg/sql.jpg" alt="Logo du langage SQL">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/031-css.svg" alt="CSS">
-                        </div>
-                        <div class="technologie">
-                            <img src="./img/SkillsSvg/003-java.svg" alt="JAVA">
-                        </div>
-                        <div class="technologie">
-                            <img src="./img/SkillsSvg/016-c-1.svg" alt="C++">
+                            <img src="./img/SkillsSvg/mysql-workbench.jpg" alt="Logo de MySql WorkBench">
                         </div>
                     </div>
                 </div>
@@ -94,24 +77,24 @@ include_once('includes/header.html');
             </div>
             <ul>
                 <li>
-                    <div class="experience-content exp-droite">
-                        <h2>Company</h2>
-                        <div class="experience-time">Jan - Jun 2016</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias debitis praesentium itaque veniam dolorum cupiditate asperiores optio beatae, qui perferendis ipsam odit modi nemo natus corrupti neque quos distinctio facilis?</p>
-                    </div>
-                </li>
-                <li>
                     <div class="experience-content exp-gauche">
-                        <h2>Company</h2>
-                        <div class="experience-time">Jul - Dec 2015</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quas, reiciendis quis sequi voluptatem consectetur adipisci accusamus hic vel vero ea ad iure! Natus, ipsum, enim aspernatur fugit voluptatibus similique?</p>
+                        <h2>Jeantet Élastomères</h2>
+                        <div class="experience-time">2019 - 2020</div>
+                        <p>Pendant cette alternance en parrallèle de ma formation au lycée Bonaparte, j'ai porté différentes casquettes telles que : Assistant du gestionnaire du parc informatique, et chef de projet sur la refonte des sites du groupe Jeantet.</p>
                     </div>
                 </li>
                 <li>
                     <div class="experience-content exp-droite">
-                        <h2>Company</h2>
-                        <div class="experience-time">Mar - Jun 2015</div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quas, reiciendis quis sequi voluptatem consectetur adipisci accusamus hic vel vero ea ad iure! Natus, ipsum, enim aspernatur fugit voluptatibus similique?</p>
+                        <h2>UFA Lycée Bonaparte</h2>
+                        <div class="experience-time">2019 - 2021</div>
+                        <p>Durant cette période, j'ai étudié pour obtenir mon BTS Sio option SLAM (Solution logiciel et applications métier). J'ai ainsi pu apprendre des bases solides de programmation dans diverses domaines d'applications.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="experience-content exp-droite">
+                        <h2>Université de Toulon</h2>
+                        <div class="experience-time">2018 - 2019</div>
+                        <p>Cette année à l'université de Toulon en L1 informatique m'a permis de consolider les bases fragile de programmation que j'avais acquéris en autodidacte grâce à Internet (OpenClassroom, Udemy, Youtube).</p>
                     </div>
                 </li>
             </ul>
@@ -127,20 +110,38 @@ include_once('includes/header.html');
                 <ul class="skills-bar-container">
                     <li>
                         <div class="progressbar-title">
-                            <h3>HTML5</h3>
+                            <h3>HTML/CSS</h3>
                             <span class="percent" id="html-pourcent"></span>
                         </div>
-                        <div class="bar-container" data-percent="95">
+                        <div class="bar-container" data-percent="80">
                             <span class="progressbar" id="progress-html"></span>
                         </div>
                     </li>
                     <li>
                         <div class="progressbar-title">
-                            <h3>CSS</h3>
-                            <span class="percent" id="css-pourcent"></span>
+                            <h3>PHP</h3>
+                            <span class="percent" id="php-pourcent"></span>
+                        </div>
+                        <div class="bar-container" data-percent="90">
+                            <span class="progressbar" id="progress-php"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="progressbar-title">
+                            <h3>NodeJS</h3>
+                            <span class="percent" id="angular-pourcent"></span>
                         </div>
                         <div class="bar-container" data-percent="85">
-                            <span class="progressbar" id="progress-css"></span>
+                            <span class="progressbar" id="progress-angular"></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="progressbar-title">
+                            <h3>WordPress</h3>
+                            <span class="percent" id="angular-pourcent"></span>
+                        </div>
+                        <div class="bar-container" data-percent="85">
+                            <span class="progressbar" id="progress-angular"></span>
                         </div>
                     </li>
                     <li>
@@ -150,24 +151,6 @@ include_once('includes/header.html');
                         </div>
                         <div class="bar-container" data-percent="80">
                             <span class="progressbar" id="progress-javascript"></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="progressbar-title">
-                            <h3>PHP</h3>
-                            <span class="percent" id="php-pourcent"></span>
-                        </div>
-                        <div class="bar-container" data-percent="65">
-                            <span class="progressbar" id="progress-php"></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="progressbar-title">
-                            <h3>AngularJS</h3>
-                            <span class="percent" id="angular-pourcent"></span>
-                        </div>
-                        <div class="bar-container" data-percent="70">
-                            <span class="progressbar" id="progress-angular"></span>
                         </div>
                     </li>
                 </ul>

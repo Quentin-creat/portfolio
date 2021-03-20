@@ -245,6 +245,7 @@ a:hover {
 
 #about_right #technologies #tech_images img {
     width: 100%;
+    border-radius:50%;
 }
 
 /* EXPERIENCE */
@@ -568,6 +569,7 @@ a:hover {
     background-color: #3C3D4B;
     border: 1px solid white;
     border-radius: 0;
+    color:white
 }
 
 #contact #form_contact form .input textarea {
@@ -576,6 +578,7 @@ a:hover {
     border: 1px solid white;
     margin-top: 33px;
     border-radius: 0;
+    color:white;
 }
 
 #contact #form_contact form button {
