@@ -21,7 +21,7 @@ include_once('includes/header.html');
             <img src="img/portraitdimret.png" alt="Portrait de face de Quentin Guillou">
         </div>
     </div>
-    <div id="about">
+    <section id="about">
         <div id="about_title">
             <div id="about_title_rect" class="rect_style"></div>
             <h1>À PROPOS</h1>
@@ -41,8 +41,8 @@ include_once('includes/header.html');
                         ainsi que des site web ou des logiciels.
                     </p>
                     <br>
-                    <p>Employé motivé et passionné, faisant preuve d'esprit d'équipe 
-                    tout en étant parfaitement autonome.
+                    <p>Employé motivé et passionné, faisant preuve d'esprit d'équipe
+                        tout en étant parfaitement autonome.
                     </p>
                 </div>
                 <br><br>
@@ -56,19 +56,35 @@ include_once('includes/header.html');
                             <img src="./img/SkillsSvg/git.png" alt="Logo du logiciel de gestion de version Git">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/010-github.svg" alt="Logo de la plateforme GitHub">
+                            <img src="./img/SkillsSvg/github.png" alt="Logo de la plateforme GitHub">
                         </div>
                         <div class="technologie first_tech">
-                            <img src="./img/SkillsSvg/sql.jpg" alt="Logo du langage SQL">
+                            <img src="./img/SkillsSvg/sql.png" alt="Logo du langage SQL">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/mysql-workbench.jpg" alt="Logo de MySql WorkBench">
+                            <img src="./img/SkillsSvg/wordpress.png" alt="Logo de Wordpress">
                         </div>
+                        <div class="technologie">
+                            <img src="./img/SkillsSvg/netbeans.png" alt="Logo de netbeans">
+                        </div>
+                        <div class="technologie">
+                            <img src="./img/SkillsSvg/googleSC.png" alt="Logo de MySql WorkBench">
+                        </div>
+                        <div class="technologie">
+                            <img src="./img/SkillsSvg/affinity.png" alt="Logo de MySql WorkBench">
+                        </div>
+                        <div class="technologie">
+                            <img src="./img/SkillsSvg/figma.png" alt="Logo de MySql WorkBench">
+                        </div>
+                        <div class="technologie">
+                            <img src="./img/SkillsSvg/mySQL.png" alt="Logo de MySql WorkBench">
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <section id="experience" class="experience">
         <div class="content">
             <div id="about_title">
@@ -77,14 +93,14 @@ include_once('includes/header.html');
             </div>
             <ul>
                 <li>
-                    <div class="experience-content exp-gauche">
+                    <div class="experience-content exp-droite">
                         <h2>Jeantet Élastomères</h2>
                         <div class="experience-time">2019 - 2020</div>
                         <p>Pendant cette alternance en parrallèle de ma formation au lycée Bonaparte, j'ai porté différentes casquettes telles que : Assistant du gestionnaire du parc informatique, et chef de projet sur la refonte des sites du groupe Jeantet.</p>
                     </div>
                 </li>
                 <li>
-                    <div class="experience-content exp-droite">
+                    <div class="experience-content exp-gauche">
                         <h2>UFA Lycée Bonaparte</h2>
                         <div class="experience-time">2019 - 2021</div>
                         <p>Durant cette période, j'ai étudié pour obtenir mon BTS Sio option SLAM (Solution logiciel et applications métier). J'ai ainsi pu apprendre des bases solides de programmation dans diverses domaines d'applications.</p>
@@ -110,15 +126,6 @@ include_once('includes/header.html');
                 <ul class="skills-bar-container">
                     <li>
                         <div class="progressbar-title">
-                            <h3>HTML/CSS</h3>
-                            <span class="percent" id="html-pourcent"></span>
-                        </div>
-                        <div class="bar-container" data-percent="80">
-                            <span class="progressbar" id="progress-html"></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="progressbar-title">
                             <h3>PHP</h3>
                             <span class="percent" id="php-pourcent"></span>
                         </div>
@@ -137,11 +144,11 @@ include_once('includes/header.html');
                     </li>
                     <li>
                         <div class="progressbar-title">
-                            <h3>WordPress</h3>
-                            <span class="percent" id="angular-pourcent"></span>
+                            <h3>HTML/CSS</h3>
+                            <span class="percent" id="html-pourcent"></span>
                         </div>
                         <div class="bar-container" data-percent="85">
-                            <span class="progressbar" id="progress-angular"></span>
+                            <span class="progressbar" id="progress-html"></span>
                         </div>
                     </li>
                     <li>
@@ -153,10 +160,20 @@ include_once('includes/header.html');
                             <span class="progressbar" id="progress-javascript"></span>
                         </div>
                     </li>
+                    <li>
+                        <div class="progressbar-title">
+                            <h3>WordPress</h3>
+                            <span class="percent" id="angular-pourcent"></span>
+                        </div>
+                        <div class="bar-container" data-percent="85">
+                            <span class="progressbar" id="progress-angular"></span>
+                        </div>
+                    </li>
+
                 </ul>
             </div>
     </section>
-    <div id="projects">
+    <section id="projects">
         <div id="about_title">
             <div id="projects_title_rect" class="rect_style"></div>
             <h1>MES PROJETS</h1>
@@ -211,8 +228,8 @@ include_once('includes/header.html');
                 </div>
             </div>
         </div>
-    </div>
-    <div id="contact">
+    </section>
+    <section id="contact">
         <div id="about_title">
             <div id="contact_title_rect" class="rect_style"></div>
             <h1>ME CONTACTER</h1>
@@ -225,13 +242,13 @@ include_once('includes/header.html');
                         <h3>Prendre contact :</h3>
                         <?php
 
-                            if (isset($_GET['action']) && !empty($_GET['action'])) {
-                                if ($_GET['action'] === 'successMail') {
-                                    echo '<p class="mailMessage" id="success">Votre message à bien été envoyé</p>';
-                                } else {
-                                    echo '<p class="mailMessage" id="error">Erreur, votre message n\'a pas pu être envoyé !</p>';
-                                }
+                        if (isset($_GET['action']) && !empty($_GET['action'])) {
+                            if ($_GET['action'] === 'successMail') {
+                                echo '<p class="mailMessage" id="success">Votre message à bien été envoyé</p>';
+                            } else {
+                                echo '<p class="mailMessage" id="error">Erreur, votre message n\'a pas pu être envoyé !</p>';
                             }
+                        }
 
                         ?>
                         <div class="input">
@@ -249,7 +266,7 @@ include_once('includes/header.html');
                     </div>
                     <div id="content">
                         <div class="input">
-                            <textarea id="email_content" name="content" required placeholder="Message" rows="14" cols="30" value="message test"></textarea>
+                            <textarea id="email_content" name="content" required placeholder="Message" rows="13" cols="70" value="message test"></textarea>
                         </div>
                         <div class="g-recaptcha" data-sitekey="6Ldgv24aAAAAAGiqz0nwViDk8rvSK5QWKB1Ai96X">
 
@@ -261,7 +278,7 @@ include_once('includes/header.html');
             </form>
         </div>
 
-    </div>
+    </section>
 </div>
 <?php
 include_once('includes/footer.html');
