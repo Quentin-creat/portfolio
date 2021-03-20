@@ -24,7 +24,7 @@ include_once('includes/header.html');
     <section id="about">
         <div id="about_title">
             <div id="about_title_rect" class="rect_style"></div>
-            <h1>À PROPOS</h1>
+            <h2>À PROPOS</h2>
         </div>
         <div id="about_content">
             <div id="about_left">
@@ -89,7 +89,7 @@ include_once('includes/header.html');
         <div class="content">
             <div id="about_title">
                 <div id="experience_title_rect" class="rect_style"></div>
-                <h1>EXPERIENCE</h1>
+                <h2>EXPERIENCE</h2>
             </div>
             <ul>
                 <li>
@@ -119,7 +119,7 @@ include_once('includes/header.html');
     <section id="skills" class="skills">
         <div id="about_title">
             <div id="skills_title_rect" class="rect_style"></div>
-            <h1>MES COMPETENCES</h1>
+            <h2>MES COMPETENCES</h2>
         </div>
         <div class="content">
             <div class="development-wrapper">
@@ -176,63 +176,74 @@ include_once('includes/header.html');
     <section id="projects">
         <div id="about_title">
             <div id="projects_title_rect" class="rect_style"></div>
-            <h1>MES PROJETS</h1>
+            <h2>MES PROJETS</h2>
         </div>
         <div id="projects_content">
-            <div class="card" style="width: 18rem;">
-                <img src="./img/ProjectsPictures/nodejs.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-nodeJS" class="btn btn-primary">Détails</a>
+
+            <div class="card">
+                <div class="header">
+                    <div class="top">
+                        <img src="./img/SkillsSvg/wordpress.png" alt="Logo de Wordpress">
+                        <h4>SECRET SANTA</h4>
+                    </div>
+                    <p class="titre">Une application web gérant le concept du secret santa</p>
+                </div>
+                <div class="content">
+                    <p class="date">2019 - 2020</p>
+                    <div class="image">
+                        <img src="./img/test/Capture.png" alt="une image">
+                    </div>
+                </div>
+                <div class="detail">
+                    <a href="./pages/projet_node.php">Voir détails</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./img/ProjectsPictures/wordpress.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-wordpress" class="btn btn-primary">Détails</a>
+
+            <div class="card">
+                <div class="header">
+                    <div class="top">
+                        <img src="./img/SkillsSvg/wordpress.png" alt="Logo de Wordpress">
+                        <h4>SECRET SANTA</h4>
+                    </div>
+                    <p class="titre">Une application web gérant le concept du secret santa</p>
+                </div>
+                <div class="content">
+                    <p class="date">2019 - 2020</p>
+                    <div class="image">
+                        <img src="./img/test/Capture.png" alt="une image">
+                    </div>
+                </div>
+                <div class="detail">
+                    <a href="./pages/projet_wordpress.php">Voir détails</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./img/ProjectsPictures/unreal.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-unrealEngine" class="btn btn-primary">Détails</a>
+
+            <div class="card">
+                <div class="header">
+                    <div class="top">
+                        <img src="./img/SkillsSvg/wordpress.png" alt="Logo de Wordpress">
+                        <h4>SECRET SANTA</h4>
+                    </div>
+                    <p class="titre">Une application web gérant le concept du secret santa</p>
+                </div>
+                <div class="content">
+                    <p class="date">2019 - 2020</p>
+                    <div class="image">
+                        <img src="./img/test/Capture.png" alt="une image">
+                    </div>
+                </div>
+                <div class="detail">
+                    <a href="./pages/projet_unrealEngine.php">Voir détails</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./img/ProjectsPictures/nodejs.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-nodeJS" class="btn btn-primary">Détails</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./img/ProjectsPictures/wordpress.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-wordpress" class="btn btn-primary">Détails</a>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="./img/ProjectsPictures/unreal.svg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="../index.php?action=projet-unrealEngine" class="btn btn-primary">Détails</a>
-                </div>
-            </div>
+
         </div>
+
     </section>
     <section id="contact">
         <div id="about_title">
             <div id="contact_title_rect" class="rect_style"></div>
-            <h1>ME CONTACTER</h1>
+            <h2>ME CONTACTER</h2>
         </div>
 
         <div id="form_contact">
@@ -240,17 +251,7 @@ include_once('includes/header.html');
                 <div>
                     <div id="intro">
                         <h3>Prendre contact :</h3>
-                        <?php
 
-                        if (isset($_GET['action']) && !empty($_GET['action'])) {
-                            if ($_GET['action'] === 'successMail') {
-                                echo '<p class="mailMessage" id="success">Votre message à bien été envoyé</p>';
-                            } else {
-                                echo '<p class="mailMessage" id="error">Erreur, votre message n\'a pas pu être envoyé !</p>';
-                            }
-                        }
-
-                        ?>
                         <div class="input">
                             <input type="text" id="name" name="name" required placeholder="Name" value="quentin">
                         </div>
@@ -269,8 +270,19 @@ include_once('includes/header.html');
                             <textarea id="email_content" name="content" required placeholder="Message" rows="13" cols="70" value="message test"></textarea>
                         </div>
                         <div class="g-recaptcha" data-sitekey="6Ldgv24aAAAAAGiqz0nwViDk8rvSK5QWKB1Ai96X">
-
                         </div>
+                        
+                        <?php
+
+                        if (isset($_GET['action']) && !empty($_GET['action'])) {
+                            if ($_GET['action'] === 'successMail') {
+                                echo '<p class="mailMessage" id="success">Votre message à bien été envoyé</p>';
+                            } else {
+                                echo '<p class="mailMessage" id="error">Erreur, votre message n\'a pas pu être envoyé !</p>';
+                            }
+                        }
+
+                        ?>
                     </div>
                 </div>
                 <button>Envoyer</button>

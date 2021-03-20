@@ -10,3 +10,6 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
         header('Location:index.php?action=errorMail#contact');
     }
 }
+else {
+    header('Location:index.php?action=errorMail#contact');
+}
