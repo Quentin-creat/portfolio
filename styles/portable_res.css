@@ -1,0 +1,27 @@
+/* CONTACT */
+
+#contact #form_contact form>div {
+    justify-content: space-evenly;
+    width:100vw;
+}
+
+#contact #form_contact form div #intro {
+    margin:0;
+    width:35%;
+}
+
+#contact #form_contact form div #intro .input {
+    width:90%;
+}
+
+#content {
+    width:40%;
+}
+
+#content > div.input {
+    width:100%;
+}
+
+#contact #form_contact form .input textarea {
+    width:90%;
+}

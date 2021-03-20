@@ -1,0 +1,21 @@
+/* CONTACT */
+
+#contact {
+    height:auto;
+}
+
+#contact #form_contact form>div {
+    flex-direction:column;
+    width:50%;
+    margin:0 auto;
+}
+
+#contact #form_contact form div #intro {
+    margin-left:0;
+    align-self:start;
+    width:100%;
+}
+
+#contact #form_contact form .input textarea {
+    width:100%;
+}
