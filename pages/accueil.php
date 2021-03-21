@@ -214,6 +214,25 @@ include_once('includes/header.html');
                     </div>
                 </div>
                 <div class="detail">
+                    <a href="./pages/projet_node.php">Voir détails</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="header">
+                    <div class="top">
+                        <img src="./img/SkillsSvg/wordpress.png" alt="Logo de Wordpress">
+                        <h4>SECRET SANTA</h4>
+                    </div>
+                    <p class="titre">Une application web gérant le concept du secret santa</p>
+                </div>
+                <div class="content">
+                    <p class="date">2019 - 2020</p>
+                    <div class="image">
+                        <img src="./img/test/Capture.png" alt="une image">
+                    </div>
+                </div>
+                <div class="detail">
                     <a href="./pages/projet_wordpress.php">Voir détails</a>
                 </div>
             </div>

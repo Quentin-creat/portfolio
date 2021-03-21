@@ -1,0 +1,92 @@
+
+/* HEADER */
+
+nav .right {
+    display:none !important;
+}
+
+/* HOME */
+
+#home {
+    flex-direction: column;
+    height: auto;
+}
+
+#home_left h1 {
+    font-size:35px !important;
+}
+
+#home p {
+    font-size:15px;
+}
+
+/* ABOUT */
+
+#about {
+    height: auto;
+}
+
+#about_left {
+    display: none;
+}
+
+#about_right {
+    width: 80%;
+    justify-content: initial;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#about_right #technologies {
+    margin-left: 0;
+    width: auto;
+}
+
+/* EXPERINENCE */
+
+.experience {
+    height: auto;
+}
+
+#projects_content {
+    grid-template-columns: 1fr;
+}
+
+.experience .content ul {
+    margin-bottom: 30px;
+}
+
+.experience .content ul li .experience-content {
+    width: 70vw;
+}
+
+.experience .content ul li .experience-content h2 {
+    font-size: 20px;
+}
+
+.experience .content ul li .experience-content .experience-time {
+    font-size: 15px;
+}
+
+.experience .content ul li .experience-content p {
+    font-size: 15px;
+}
+
+/* CONTACT */
+
+.g-recaptcha {
+    transform: scale(0.50);
+    -webkit-transform: scale(0.70);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+}
+
+#contact #form_contact form button {
+    width:150px;
+}
+
+/* FOOTER */
+
+#footer #reseaux a img {
+    width:30px;
+}

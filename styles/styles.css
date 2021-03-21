@@ -159,7 +159,7 @@ a:hover {
 }
 
 #home_left_content {
-    margin: 0% 0% 90px 20%;
+    margin: 150px 0% 90px 20%;
 }
 
 #home p {
@@ -471,10 +471,9 @@ a:hover {
 #projects_content {
     width:90%;
     margin:10vh auto 0 auto;
-    display:flex;
-    flex-wrap:wrap;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
 
 .card {
     width:270px;
@@ -574,7 +573,7 @@ a:hover {
 
 #contact #form_contact form div #intro {
     margin-left: 4%;
-    width:35%;
+    width:25%;
 }
 
 #contact #form_contact form div #intro h3 {
