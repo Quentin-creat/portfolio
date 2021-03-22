@@ -1,4 +1,11 @@
 
+/* GENERAL */
+
+h2 {
+    font-size: 27px;
+    letter-spacing:1px;
+}
+
 /* HEADER */
 
 nav .right {
@@ -12,18 +19,38 @@ nav .right {
     height: auto;
 }
 
+#home #home_left {
+    margin-top:0;
+}
+
+#home_left_content {
+    margin:50px 0 0 20%;
+}
+
 #home_left h1 {
     font-size:35px !important;
 }
 
 #home p {
-    font-size:15px;
+    font-size:20px;
 }
 
 /* ABOUT */
 
+#about_title {
+    justify-content: unset;
+}
+
 #about {
     height: auto;
+}
+
+#about h3 {
+    letter-spacing:2px;
+}
+
+#about p {
+    letter-spacing: 1px;
 }
 
 #about_left {
