@@ -117,61 +117,81 @@ include_once('includes/header.html');
         </div>
     </section>
     <section id="skills" class="skills">
-        <div id="about_title">
-            <div id="skills_title_rect" class="rect_style"></div>
-            <h2>MES COMPETENCES</h2>
-        </div>
-        <div class="content">
-            <div class="development-wrapper">
-                <ul class="skills-bar-container">
-                    <li>
-                        <div class="progressbar-title">
-                            <h3>PHP</h3>
-                            <span class="percent" id="php-pourcent"></span>
-                        </div>
-                        <div class="bar-container" data-percent="90">
-                            <span class="progressbar" id="progress-php"></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="progressbar-title">
-                            <h3>NodeJS</h3>
-                            <span class="percent" id="angular-pourcent"></span>
-                        </div>
-                        <div class="bar-container" data-percent="85">
-                            <span class="progressbar" id="progress-angular"></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="progressbar-title">
-                            <h3>HTML/CSS</h3>
-                            <span class="percent" id="html-pourcent"></span>
-                        </div>
-                        <div class="bar-container" data-percent="85">
-                            <span class="progressbar" id="progress-html"></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="progressbar-title">
-                            <h3>JavaScript / jQuery</h3>
-                            <span class="percent" id="javascript-pourcent"></span>
-                        </div>
-                        <div class="bar-container" data-percent="80">
-                            <span class="progressbar" id="progress-javascript"></span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="progressbar-title">
-                            <h3>WordPress</h3>
-                            <span class="percent" id="angular-pourcent"></span>
-                        </div>
-                        <div class="bar-container" data-percent="85">
-                            <span class="progressbar" id="progress-angular"></span>
-                        </div>
-                    </li>
-
-                </ul>
+        <div class="hardskills">
+            <div id="about_title">
+                <div id="skills_title_rect" class="rect_style"></div>
+                <h2>HARD SKILLS</h2>
             </div>
+            <div class="content">
+                <div class="development-wrapper">
+                    <ul class="skills-bar-container">
+                        <li>
+                            <div class="progressbar-title">
+                                <h3>PHP</h3>
+                                <span class="percent" id="php-pourcent"></span>
+                            </div>
+                            <div class="bar-container" data-percent="90">
+                                <span class="progressbar" id="progress-php"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progressbar-title">
+                                <h3>NodeJS</h3>
+                                <span class="percent" id="angular-pourcent"></span>
+                            </div>
+                            <div class="bar-container" data-percent="85">
+                                <span class="progressbar" id="progress-angular"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progressbar-title">
+                                <h3>HTML/CSS</h3>
+                                <span class="percent" id="html-pourcent"></span>
+                            </div>
+                            <div class="bar-container" data-percent="85">
+                                <span class="progressbar" id="progress-html"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progressbar-title">
+                                <h3>JavaScript / jQuery</h3>
+                                <span class="percent" id="javascript-pourcent"></span>
+                            </div>
+                            <div class="bar-container" data-percent="80">
+                                <span class="progressbar" id="progress-javascript"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progressbar-title">
+                                <h3>WordPress</h3>
+                                <span class="percent" id="angular-pourcent"></span>
+                            </div>
+                            <div class="bar-container" data-percent="85">
+                                <span class="progressbar" id="progress-angular"></span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="softskills">
+                <div id="about_title">
+                    <div id="skills_title_rect" class="rect_style"></div>
+                    <h2>SOFT SKILLS</h2>
+                </div>
+                <div class="content">
+                    <div class="development-wrapper">
+                        <ul class="skills-bar-container soft-skills">
+                            <div class="soft-skills_puces">
+                                <li class="softskills">- Esprit d'équipe</li>
+                                <li class="softskills">- Autonomie</li>
+                                <li class="softskills">- À l'écoute</li>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
     </section>
     <section id="projects">
         <div id="about_title">
@@ -290,7 +310,7 @@ include_once('includes/header.html');
                         </div>
                         <div class="g-recaptcha" data-sitekey="6Ldgv24aAAAAAGiqz0nwViDk8rvSK5QWKB1Ai96X">
                         </div>
-                        
+
                         <?php
 
                         if (isset($_GET['action']) && !empty($_GET['action'])) {
