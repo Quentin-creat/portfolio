@@ -60,11 +60,11 @@ h2 {
 }
 
 #index section:nth-child(odd) {
-    background-color:#222831;
+    background-color:#f1f9f9;
 }
 
 #index section:nth-child(even) {
-    background-color:#433d3c;
+    background-color:#e1f2fb;
 }
 
 .rect_style {
@@ -99,7 +99,7 @@ section {
 }
 
 #index {
-    color: #d8d3cd;
+    color: black;
 }
 
 #header {
@@ -143,7 +143,7 @@ a:hover {
 /* HOME */
 
 #home {
-    background: linear-gradient(to right, #00030B, 88%, #9A9C9F);
+    background: linear-gradient(to right, #c0d0ff, 88%, #9A9C9F);
     display: flex;
     height: 90vh;
 }
