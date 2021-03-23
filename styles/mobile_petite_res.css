@@ -6,6 +6,10 @@ h2 {
     letter-spacing:1px;
 }
 
+.rect_style {
+    margin-right:290px;
+}
+
 /* HEADER */
 
 nav .right {
@@ -36,10 +40,6 @@ nav .right {
 }
 
 /* ABOUT */
-
-#about_title {
-    justify-content: unset;
-}
 
 #about {
     height: auto;
