@@ -18,6 +18,12 @@
     width:80%;
 }
 
+/* ABOUT */
+
+#about_left>img {
+    height: 80%;
+}
+
 /* EXPERIENCE */
 
 .experience .content ul {

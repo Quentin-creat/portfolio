@@ -18,7 +18,7 @@ include_once('includes/header.html');
         </div>
 
         <div id="home_right">
-            <img src="img/portraitdimret.png" alt="Portrait de face de Quentin Guillou">
+            <img src="img/portraits/home_picture.png" alt="Portrait de face de Quentin Guillou">
         </div>
     </div>
     <section id="about">
@@ -28,7 +28,7 @@ include_once('includes/header.html');
         </div>
         <div id="about_content">
             <div id="about_left">
-                <img src="img/portraitdim.jpg" alt="Autre portrait de face de Quentin Guillou">
+                <img src="img/portraits/about_picture.png" alt="Autre portrait de face de Quentin Guillou">
             </div>
             <div id="about_right">
                 <div id="who_am_i">
