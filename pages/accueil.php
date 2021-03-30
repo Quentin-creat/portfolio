@@ -277,7 +277,44 @@ include_once('includes/header.html');
             </div>
 
         </div>
+    </section>
+    <section id="certifications">
+        <div id="about_title">
+            <div id="contact_title_rect" class="rect_style"></div>
+            <h2>CERTIFICATIONS</h2>
+        </div>
+        <div id="certifSlider">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/certifications/NodeFullStackCertification.png" alt="Certification Open Classroom NodeJS, express, mongoDB"></div>
+                    <div class="swiper-slide"><img src="./img/certifications/PHPMYSQLCertification.png" alt="Certification Open Classroom PHP et MySQL"></div>
+                    <div class="swiper-slide"><img src="./img/certifications/GitCertification.png" alt="Certification Open Classroom utilisation Git et Github"></div>
+                    <div class="swiper-slide"><img src="./img/certifications/materialDesignCertification.png" alt="Certification Open Classroom material Design"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
 
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+            <script>
+                var swiper = new Swiper('.swiper-container', {
+                    loop: true,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            </script>
+        </div>
     </section>
     <section id="contact">
         <div id="about_title">

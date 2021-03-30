@@ -55,24 +55,28 @@ h2 {
     padding-top: 80px;
 }
 
+#certifications:target {
+    padding-top: 80px;
+}
+
 #contact:target {
     padding-top: 80px;
 }
 
 #index section:nth-child(odd) {
-    background-color:#f1f9f9;
+    background-color: #f1f9f9;
 }
 
 #index section:nth-child(even) {
-    background-color:#e1f2fb;
+    background-color: #e1f2fb;
 }
 
 .rect_style {
     width: 60px;
     height: 5px;
     margin-right: 15px;
-    position:absolute;
-    margin-right:360px;
+    position: absolute;
+    margin-right: 360px;
 }
 
 #index section:nth-child(odd) .rect_style {
@@ -84,9 +88,8 @@ h2 {
 }
 
 section {
-    height:90vh;
+    height: 90vh;
 }
-
 
 /* STYLES CSS */
 
@@ -197,7 +200,7 @@ a:hover {
     display: flex;
     align-items: flex-end;
     width: 50%;
-    margin-top:8.6%;
+    margin-top: 8.6%;
 }
 
 #home_right>img {
@@ -227,7 +230,7 @@ a:hover {
 #about_left {
     display: flex;
     justify-content: center;
-    height:690px;
+    height: 690px;
 }
 
 /* ABOUT_RIGHT */
@@ -257,14 +260,14 @@ a:hover {
 
 #about_right #technologies #tech_images img {
     width: 100%;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
 /* EXPERIENCE */
 
 .experience {
     overflow-x: hidden;
-    height:100vh;
+    height: 100vh;
 }
 
 .experience .content {
@@ -462,49 +465,49 @@ a:hover {
 /* Soft-Skills */
 
 .soft-skills_puces {
-    width:150px;
-    margin:50px auto 0 auto;
+    width: 150px;
+    margin: 50px auto 0 auto;
 }
 
 .soft-skills_puces li {
-    font-size:20px;
+    font-size: 20px;
 }
 
 /* PROJECTS */
 
 #projects_content {
-    width:90%;
-    margin:10vh auto 0 auto;
-    display:grid;
+    width: 90%;
+    margin: 10vh auto 0 auto;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .card {
-    width:270px;
-    height:400px;
-    background-color:#fbfbfd9f;
-    border:1px grey solid;
-    border-radius:15px;
+    width: 270px;
+    height: 400px;
+    background-color: #fbfbfd9f;
+    border: 1px grey solid;
+    border-radius: 15px;
     margin: 0 auto;
-    transition:0.2s;
+    transition: 0.2s;
 }
 
 .card:hover {
-    cursor:default;
+    cursor: default;
     background-color: #689dda52;
-    transition:0.5s;
+    transition: 0.5s;
 }
 
 .card .header .top {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    margin:0px 10px 10px 10px;
-    padding-top:15px;
+    margin: 0px 10px 10px 10px;
+    padding-top: 15px;
 }
 
 .card .header .top img {
-    width:30px;
-    border-radius:50%;
+    width: 30px;
+    border-radius: 50%;
 }
 
 .card .header .top h4 {
@@ -512,18 +515,18 @@ a:hover {
 }
 
 .card .header .titre {
-    margin:30px 10px 10px 10px;
+    margin: 30px 10px 10px 10px;
     letter-spacing: 2px;
 }
 
 .card .content {
-    width:90%;
-    margin:30px auto 0 auto;
+    width: 90%;
+    margin: 30px auto 0 auto;
 }
 
 .card .content .date {
-    color:grey;
-    font-size:15px;
+    color: grey;
+    font-size: 15px;
 }
 
 .card .content .image {
@@ -531,36 +534,68 @@ a:hover {
 }
 
 .card .content .image img {
-    width:100%;
-    border-radius:10px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .card .detail {
-    margin:20px 10px 0px 13px;
-    background-color:rgba(128, 128, 128, 0.226);
+    margin: 20px 10px 0px 13px;
+    background-color: rgba(128, 128, 128, 0.226);
     padding: 7px 15px 7px 15px;
-    width:31%;
-    border-radius:10px;
-    cursor:pointer;
+    width: 31%;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .card .detail:hover {
-    background-color:#f9f3f3;
-    transition:0.5s;
+    background-color: #f9f3f3;
+    transition: 0.5s;
 }
 
 .card .detail a {
     text-decoration: none;
-    color:white;
-    padding-bottom:1px;
+    color: white;
+    padding-bottom: 1px;
 }
 
 .card .detail a:hover {
-    border-bottom:1px grey solid;
+    border-bottom: 1px grey solid;
 }
 
 .card .detail:hover a {
-    color:rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
+}
+
+/* CERTIFS */
+
+.swiper-container {
+    width: 1100px;
+    height: 700px;
+    z-index:0;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color:transparent;
+}
+
+.swiper-slide img {
+    width:900px;
 }
 
 /* CONTACT */
@@ -578,11 +613,11 @@ a:hover {
 
 #contact #form_contact form div #intro {
     margin-left: 4%;
-    width:25%;
+    width: 25%;
 }
 
 #contact #form_contact form div #intro h3 {
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
 #contact #form_contact form #intro .input {
@@ -594,8 +629,8 @@ a:hover {
     background-color: #f5f5f5;
     border: 1px solid white;
     border-radius: 10px;
-    color:rgb(0, 0, 0);
-    width:100%;
+    color: rgb(0, 0, 0);
+    width: 100%;
 }
 
 #contact #form_contact form .input textarea {
@@ -604,11 +639,11 @@ a:hover {
     border: 1px solid white;
     margin-top: 40px;
     border-radius: 10px;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 #contact .g-recaptcha {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 #contact #form_contact form button {
@@ -623,24 +658,26 @@ a:hover {
 #contact #form_contact form a {
     margin: 10px auto 0 auto;
     text-decoration: none;
-    color:black;
-    padding-bottom:3px;
+    color: black;
+    padding-bottom: 3px;
 }
 
 #contact #form_contact form a:hover {
-    border-bottom:1px black solid;
+    border-bottom: 1px black solid;
 }
 
 #contact .mailMessage {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 #contact #success {
-    color:#96bb7c;
+    color: #96bb7c;
 }
+
 #contact #error {
-    color:#6b011f;
+    color: #6b011f;
 }
+
 /* FOOTER */
 
 #footer {
@@ -666,11 +703,8 @@ a:hover {
 #footer>a {
     margin-top: 20px;
     text-align: center;
-    color:white;
+    color: white;
 }
-
-
-
 
 /* PAGES PROJETS */
 
