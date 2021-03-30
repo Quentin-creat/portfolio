@@ -593,6 +593,10 @@ a:hover {
 
 /* CERTIFS */
 
+#certifications {
+    height:unset;
+}
+
 .swiper-container {
     width: 1100px;
     height: 700px;
