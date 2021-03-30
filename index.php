@@ -15,6 +15,17 @@ if (isset($_GET['action'])) {
         case 'sendMail':
             include './controller/mail.php';
             break;
+        case 'voirCV':
+            // Stocker le nom du fichier dans une variable
+            $file = './includes/CV2021.pdf';
+            // Type de contenu dd l'en-tête
+            header('Content-type: application/pdf');
+            header('Content-Disposition: inline; filename="' . $file . '"');
+            header('Content-Transfer-Encoding: binary');
+            header('Accept-Ranges: bytes');
+            // Lire le fichier
+            @readfile($file);
+            break;
         default:
             include('./pages/accueil.php');
     }

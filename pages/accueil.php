@@ -14,6 +14,9 @@ include_once('includes/header.html');
                     <div id="home_rect"></div>
                     <p>Développeur junior full stack</p>
                 </div>
+                <div class="cv">
+                    <a href="./index?action=voirCV" class="liencv">Télécharger mon CV</a>
+                </div>
             </div>
         </div>
 
