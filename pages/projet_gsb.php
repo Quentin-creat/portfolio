@@ -4,10 +4,10 @@ include_once('../includes/header.html');
 
 <div id="project_content">
     <div id="project_img">
-        <img src="../img/ProjectsPictures/unreal.svg">
+        <img src="../img/projects/projectsTech/php.svg">
     </div>
-    <div id="project_text_content" class="project_unreal">
-        <h1>CECI EST UN TITRE</h1>
+    <div id="project_text_content" class="project_wordpress">
+        <h1>Galaxy Swiss Bourdin</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id velit ac
             ligula suscipit rhoncus.

@@ -50,34 +50,34 @@ include_once('includes/header.html');
                     <h3>Mes outils :</h3>
                     <div id="tech_images">
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/visual-studio-code.png" alt="Logo de l'IDE Visual studio code">
+                            <img src="./img/SkillsSvg/visual-studio-code.svg" alt="Logo de l'IDE Visual studio code">
                         </div>
                         <div class="technologie first_tech">
-                            <img src="./img/SkillsSvg/git.png" alt="Logo du logiciel de gestion de version Git">
+                            <img src="./img/SkillsSvg/git.svg" alt="Logo du logiciel de gestion de version Git">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/github.png" alt="Logo de la plateforme GitHub">
+                            <img src="./img/SkillsSvg/github.svg" alt="Logo de la plateforme GitHub">
                         </div>
                         <div class="technologie first_tech">
-                            <img src="./img/SkillsSvg/sql.png" alt="Logo du langage SQL">
+                            <img src="./img/SkillsSvg/sql.svg" alt="Logo du langage SQL">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/wordpress.png" alt="Logo de Wordpress">
+                            <img src="./img/SkillsSvg/wordpress.svg" alt="Logo de Wordpress">
                         </div>
                         <div class="technologie">
                             <img src="./img/SkillsSvg/netbeans.png" alt="Logo de netbeans">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/googleSC.png" alt="Logo de MySql WorkBench">
+                            <img src="./img/SkillsSvg/trello.svg" alt="Logo de MySql WorkBench">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/affinity.png" alt="Logo de MySql WorkBench">
+                            <img src="./img/SkillsSvg/affinity.svg" alt="Logo de MySql WorkBench">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/figma.png" alt="Logo de MySql WorkBench">
+                            <img src="./img/SkillsSvg/figma.svg" alt="Logo de MySql WorkBench">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/mySQL.png" alt="Logo de MySql WorkBench">
+                            <img src="./img/SkillsSvg/mysql.svg" alt="Logo de MySql WorkBench">
                         </div>
 
                     </div>
@@ -203,79 +203,78 @@ include_once('includes/header.html');
             <div class="card">
                 <div class="header">
                     <div class="top">
-                        <img src="./img/SkillsSvg/wordpress.png" alt="Logo de Wordpress">
-                        <h4>SECRET SANTA</h4>
+                        <img src="./img/projects/projectsTech/wordpress.svg" alt="Logo de Wordpress">
+                        <h4>Jeantet Élastomères</h4>
                     </div>
-                    <p class="titre">Une application web gérant le concept du secret santa</p>
+                    <p class="titre">Refonte des sites du groupe Jeantet</p>
                 </div>
                 <div class="content">
-                    <p class="date">2019 - 2020</p>
+                    <p class="date">2019 - 2021</p>
                     <div class="image">
-                        <img src="./img/test/Capture.png" alt="une image">
+                        <img src="./img/projects/projectsScreen/jeantet.png" alt="une image">
                     </div>
                 </div>
                 <div class="detail">
-                    <a href="./pages/projet_node.php">Voir détails</a>
+                    <a href="./pages/projet_jeantet.php">Voir détails</a>
                 </div>
             </div>
 
             <div class="card">
                 <div class="header">
                     <div class="top">
-                        <img src="./img/SkillsSvg/wordpress.png" alt="Logo de Wordpress">
-                        <h4>SECRET SANTA</h4>
+                        <img src="./img/projects/projectsTech/php.svg" alt="Logo de PHP">
+                        <h4>GSB</h4>
                     </div>
-                    <p class="titre">Une application web gérant le concept du secret santa</p>
+                    <p class="titre">Application gérant le suivi de remboursement de visiteurs médical</p>
                 </div>
                 <div class="content">
-                    <p class="date">2019 - 2020</p>
+                    <p class="date">2020 - 2021</p>
                     <div class="image">
-                        <img src="./img/test/Capture.png" alt="une image">
+                        <img src="./img/projects/projectsScreen/gsb.png" alt="une image">
                     </div>
                 </div>
                 <div class="detail">
-                    <a href="./pages/projet_node.php">Voir détails</a>
+                    <a href="./pages/projet_gsb.php">Voir détails</a>
                 </div>
             </div>
 
             <div class="card">
                 <div class="header">
                     <div class="top">
-                        <img src="./img/SkillsSvg/wordpress.png" alt="Logo de Wordpress">
-                        <h4>SECRET SANTA</h4>
+                        <img src="./img/projects/projectsTech/symfony.svg" alt="Logo de Symfony">
+                        <h4>Maison Des Ligues </h4>
                     </div>
-                    <p class="titre">Une application web gérant le concept du secret santa</p>
+                    <p class="titre">Application symfony gérant l'inscription de licenciés d'escrime</p>
                 </div>
                 <div class="content">
-                    <p class="date">2019 - 2020</p>
+                    <p class="date">2020 - 2021</p>
                     <div class="image">
-                        <img src="./img/test/Capture.png" alt="une image">
+                        <img src="./img/projects/projectsScreen/MDL.png" alt="une image">
                     </div>
                 </div>
                 <div class="detail">
-                    <a href="./pages/projet_wordpress.php">Voir détails</a>
+                    <a href="./pages/projet_mdl.php">Voir détails</a>
                 </div>
             </div>
 
             <div class="card">
                 <div class="header">
                     <div class="top">
-                        <img src="./img/SkillsSvg/wordpress.png" alt="Logo de Wordpress">
+                        <img src="./img/projects/projectsTech/nodejs.svg" alt="Logo de NodeJS">
                         <h4>SECRET SANTA</h4>
                     </div>
                     <p class="titre">Une application web gérant le concept du secret santa</p>
                 </div>
                 <div class="content">
-                    <p class="date">2019 - 2020</p>
+                    <p class="date">2019 - ...</p>
                     <div class="image">
-                        <img src="./img/test/Capture.png" alt="une image">
+                        <img src="./img/projects/projectsScreen/secretSanta.png" alt="une image">
                     </div>
                 </div>
                 <div class="detail">
-                    <a href="./pages/projet_unrealEngine.php">Voir détails</a>
+                    <a href="./pages/projet_secretsanta.php">Voir détails</a>
                 </div>
             </div>
-
         </div>
     </section>
     <section id="certifications">
