@@ -78,6 +78,12 @@ nav li {
     margin-top:10px;
 }
 
+/* CERTIFICATIONS */
+
+#certifications {
+    display:none;
+}
+
 /* CONTACT */
 
 #contact {

@@ -139,6 +139,10 @@ a:hover {
     text-decoration: underline;
 }
 
+#header #burger {
+    display:none;
+}
+
 /* HOME */
 
 #home {
