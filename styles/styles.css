@@ -139,7 +139,7 @@ a:hover {
     text-decoration: underline;
 }
 
-#header #burger {
+#header .menu-wrapper {
     display:none;
 }
 

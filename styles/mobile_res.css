@@ -5,6 +5,7 @@ nav .right {
 }
 
 nav .menu {
+    display:flex !important;
     flex-direction: column;
     background-color:black;
     justify-content: center !important;
@@ -12,7 +13,6 @@ nav .menu {
     right:0 !important;
     width:100vw !important;
     height:100vh;
-    display:flex !important;
     transition:0.2s;
 }
 
