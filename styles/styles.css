@@ -87,10 +87,6 @@ h2 {
     background: linear-gradient(to right, #433d3c, 35%, #e1f2fb);
 }
 
-section {
-    height: 90vh;
-}
-
 /* STYLES CSS */
 
 /* HEADER */
@@ -250,7 +246,8 @@ a:hover {
 #about_left {
     display: flex;
     justify-content: center;
-    height: 690px;
+    height:90%;
+    align-self:flex-end;
 }
 
 /* ABOUT_RIGHT */
@@ -259,7 +256,6 @@ a:hover {
     width: 40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 555px;
 }
 
@@ -291,11 +287,11 @@ a:hover {
 
 .experience {
     overflow-x: hidden;
-    height: 100vh;
 }
 
 .experience .content {
     text-align: center;
+    margin-bottom:20px;
 }
 
 .experience .content ul {
@@ -501,7 +497,7 @@ a:hover {
 
 #projects_content {
     width: 90%;
-    margin: 10vh auto 0 auto;
+    margin: 10vh auto 40px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -733,7 +729,6 @@ a:hover {
     color: black !important;
     display: flex;
     justify-content: space-around;
-    height: 79vh;
     align-items: center;
 }
 
