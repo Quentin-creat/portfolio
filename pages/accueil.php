@@ -177,7 +177,7 @@ include_once('includes/header.html');
                     </ul>
                 </div>
             </div>
-
+            <!--
             <div class="softskills">
                 <div id="about_title">
                     <div id="skills_title_rect" class="rect_style"></div>
@@ -195,6 +195,8 @@ include_once('includes/header.html');
                         </ul>
                     </div>
                 </div>
+            </div>
+            -->
     </section>
     <section id="projects">
         <div id="about_title">
