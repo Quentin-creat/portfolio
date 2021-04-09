@@ -81,7 +81,7 @@ nav li {
 
 /* CERTIFICATIONS */
 
-#certifications {
+#certifications, #certificationsMenu {
     display:none;
 }
 

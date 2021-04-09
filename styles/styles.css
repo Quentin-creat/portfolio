@@ -752,6 +752,7 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding:95px 0 95px 0;
 }
 
 #project_content #project_img img {
