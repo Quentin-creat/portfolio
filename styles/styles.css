@@ -102,7 +102,7 @@ h2 {
 }
 
 #header {
-    background-color: #5d4747;
+    background-color: #363636;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -146,9 +146,27 @@ a:hover {
 /* HOME */
 
 #home {
-    background: linear-gradient(to right, #ffcdcd5e, 88%, #9A9C9F);
     display: flex;
     height: 90vh;
+}
+
+#home {
+    background: linear-gradient(281deg, #c2fcf1, #d1a2a2);
+    background-size: 400% 400%;
+
+    -moz-animation: AnimationName 7s ease 1;
+    animation: AnimationName 7s ease 1;
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
 }
 
 /* HOME LEFT */
@@ -701,7 +719,7 @@ a:hover {
 /* FOOTER */
 
 #footer {
-    background-color: #5d4747;
+    background-color: #363636;
     display: flex;
     flex-direction: column;
     justify-content: center;
