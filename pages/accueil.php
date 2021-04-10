@@ -15,13 +15,13 @@ include_once('includes/header.html');
                     <p>Développeur junior full stack</p>
                 </div>
                 <div class="cv">
-                    <a href="./index?action=voirCV" class="liencv">Télécharger mon CV</a>
+                    <a href="../index?action=voirCV" class="liencv">Télécharger mon CV</a>
                 </div>
             </div>
         </div>
 
         <div id="home_right">
-            <img src="img/portraits/home_picture.png" alt="Portrait de face de Quentin Guillou">
+            <img src="../img/portraits/home_picture.png" alt="Portrait de face de Quentin Guillou">
         </div>
     </div>
     <section id="about">
@@ -31,7 +31,7 @@ include_once('includes/header.html');
         </div>
         <div id="about_content">
             <div id="about_left">
-                <img src="img/portraits/about_picture.png" alt="Autre portrait de face de Quentin Guillou">
+                <img src="../img/portraits/about_picture.png" alt="Autre portrait de face de Quentin Guillou">
             </div>
             <div id="about_right">
                 <div id="who_am_i">
@@ -53,34 +53,34 @@ include_once('includes/header.html');
                     <h3>Mes outils :</h3>
                     <div id="tech_images">
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/visual-studio-code.svg" alt="Logo de l'IDE Visual studio code">
+                            <img src="../img/SkillsSvg/visual-studio-code.svg" alt="Logo de l'IDE Visual studio code">
                         </div>
                         <div class="technologie first_tech">
-                            <img src="./img/SkillsSvg/git.svg" alt="Logo du logiciel de gestion de version Git">
+                            <img src="../img/SkillsSvg/git.svg" alt="Logo du logiciel de gestion de version Git">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/github.svg" alt="Logo de la plateforme GitHub">
+                            <img src="../img/SkillsSvg/github.svg" alt="Logo de la plateforme GitHub">
                         </div>
                         <div class="technologie first_tech">
-                            <img src="./img/SkillsSvg/sql.svg" alt="Logo du langage SQL">
+                            <img src="../img/SkillsSvg/sql.svg" alt="Logo du langage SQL">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/wordpress.svg" alt="Logo de Wordpress">
+                            <img src="../img/SkillsSvg/wordpress.svg" alt="Logo de Wordpress">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/netbeans.png" alt="Logo de netbeans">
+                            <img src="../img/SkillsSvg/netbeans.png" alt="Logo de netbeans">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/trello.svg" alt="Logo de MySql WorkBench">
+                            <img src="../img/SkillsSvg/trello.svg" alt="Logo de MySql WorkBench">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/affinity.svg" alt="Logo de MySql WorkBench">
+                            <img src="../img/SkillsSvg/affinity.svg" alt="Logo de MySql WorkBench">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/figma.svg" alt="Logo de MySql WorkBench">
+                            <img src="../img/SkillsSvg/figma.svg" alt="Logo de MySql WorkBench">
                         </div>
                         <div class="technologie">
-                            <img src="./img/SkillsSvg/mysql.svg" alt="Logo de MySql WorkBench">
+                            <img src="../img/SkillsSvg/mysql.svg" alt="Logo de MySql WorkBench">
                         </div>
 
                     </div>
@@ -208,7 +208,7 @@ include_once('includes/header.html');
             <div class="card">
                 <div class="header">
                     <div class="top">
-                        <img src="./img/projects/projectsTech/wordpress.svg" alt="Logo de Wordpress">
+                        <img src="../img/projects/projectsTech/wordpress.svg" alt="Logo de Wordpress">
                         <h4>Jeantet Élastomères</h4>
                     </div>
                     <p class="titre">Refonte des sites du groupe Jeantet</p>
@@ -216,18 +216,18 @@ include_once('includes/header.html');
                 <div class="content">
                     <p class="date">2019 - 2021</p>
                     <div class="image">
-                        <img src="./img/projects/projectsScreen/jeantet.png" alt="une image">
+                        <img src="../img/projects/projectsScreen/jeantet.png" alt="une image">
                     </div>
                 </div>
                 <div class="detail">
-                    <a href="./pages/projet_jeantet.php">Voir détails</a>
+                    <a href="../pages/projet_jeantet.php">Voir détails</a>
                 </div>
             </div>
 
             <div class="card">
                 <div class="header">
                     <div class="top">
-                        <img src="./img/projects/projectsTech/php.svg" alt="Logo de PHP">
+                        <img src="../img/projects/projectsTech/php.svg" alt="Logo de PHP">
                         <h4>GSB</h4>
                     </div>
                     <p class="titre">Application gérant le suivi de remboursement de visiteurs médical</p>
@@ -235,18 +235,18 @@ include_once('includes/header.html');
                 <div class="content">
                     <p class="date">2020 - 2021</p>
                     <div class="image">
-                        <img src="./img/projects/projectsScreen/gsb.png" alt="une image">
+                        <img src="../img/projects/projectsScreen/gsb.png" alt="une image">
                     </div>
                 </div>
                 <div class="detail">
-                    <a href="./pages/projet_gsb.php">Voir détails</a>
+                    <a href="../pages/projet_gsb.php">Voir détails</a>
                 </div>
             </div>
 
             <div class="card">
                 <div class="header">
                     <div class="top">
-                        <img src="./img/projects/projectsTech/symfony.svg" alt="Logo de Symfony">
+                        <img src="../img/projects/projectsTech/symfony.svg" alt="Logo de Symfony">
                         <h4>Maison Des Ligues </h4>
                     </div>
                     <p class="titre">Application symfony gérant l'inscription de licenciés d'escrime</p>
@@ -254,18 +254,18 @@ include_once('includes/header.html');
                 <div class="content">
                     <p class="date">2020 - 2021</p>
                     <div class="image">
-                        <img src="./img/projects/projectsScreen/MDL.png" alt="une image">
+                        <img src="../img/projects/projectsScreen/MDL.png" alt="une image">
                     </div>
                 </div>
                 <div class="detail">
-                    <a href="./pages/projet_mdl.php">Voir détails</a>
+                    <a href="../pages/projet_mdl.php">Voir détails</a>
                 </div>
             </div>
 
             <div class="card">
                 <div class="header">
                     <div class="top">
-                        <img src="./img/projects/projectsTech/nodejs.svg" alt="Logo de NodeJS">
+                        <img src="../img/projects/projectsTech/nodejs.svg" alt="Logo de NodeJS">
                         <h4>SECRET SANTA</h4>
                     </div>
                     <p class="titre">Une application web gérant le concept du secret santa</p>
@@ -273,11 +273,11 @@ include_once('includes/header.html');
                 <div class="content">
                     <p class="date">2019 - ...</p>
                     <div class="image">
-                        <img src="./img/projects/projectsScreen/secretSanta.png" alt="une image">
+                        <img src="../img/projects/projectsScreen/secretSanta.png" alt="une image">
                     </div>
                 </div>
                 <div class="detail">
-                    <a href="./pages/projet_secretsanta.php">Voir détails</a>
+                    <a href="../pages/projet_secretsanta.php">Voir détails</a>
                 </div>
             </div>
         </div>
@@ -291,10 +291,10 @@ include_once('includes/header.html');
             <!-- Slider main container -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="./img/certifications/NodeFullStackCertification.png" alt="Certification Open Classroom NodeJS, express, mongoDB"></div>
-                    <div class="swiper-slide"><img src="./img/certifications/PHPMYSQLCertification.png" alt="Certification Open Classroom PHP et MySQL"></div>
-                    <div class="swiper-slide"><img src="./img/certifications/GitCertification.png" alt="Certification Open Classroom utilisation Git et Github"></div>
-                    <div class="swiper-slide"><img src="./img/certifications/materialDesignCertification.png" alt="Certification Open Classroom material Design"></div>
+                    <div class="swiper-slide"><img src="../img/certifications/NodeFullStackCertification.png" alt="Certification Open Classroom NodeJS, express, mongoDB"></div>
+                    <div class="swiper-slide"><img src="../img/certifications/PHPMYSQLCertification.png" alt="Certification Open Classroom PHP et MySQL"></div>
+                    <div class="swiper-slide"><img src="../img/certifications/GitCertification.png" alt="Certification Open Classroom utilisation Git et Github"></div>
+                    <div class="swiper-slide"><img src="../img/certifications/materialDesignCertification.png" alt="Certification Open Classroom material Design"></div>
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
