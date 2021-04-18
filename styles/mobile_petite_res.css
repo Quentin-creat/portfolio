@@ -1,0 +1,150 @@
+
+/* GENERAL */
+
+h2 {
+    font-size: 27px;
+    letter-spacing:1px;
+}
+
+.rect_style {
+    margin-right:290px;
+}
+
+/* HEADER */
+
+nav .right {
+    display:none !important;
+}
+
+nav .menu {
+    display:flex !important;
+    flex-direction: column;
+    background-color:black;
+    justify-content: center !important;
+    align-items:center;
+    right:0 !important;
+    width:100vw !important;
+    height:100vh;
+    transition:0.2s;
+}
+
+nav .menu li {
+    padding: 20px 0px 20px 0px;
+}
+
+#header .menu-wrapper {
+    display:initial;
+    position:absolute;
+    top:10px;
+    right:20px;
+    color:grey;
+}
+
+/* HOME */
+
+#home {
+    flex-direction: column;
+    height: auto;
+}
+
+#home #home_left {
+    margin-top:0;
+}
+
+#home_left_content {
+    margin:50px 0 0 20%;
+}
+
+#home_left h1 {
+    font-size:35px !important;
+}
+
+#home p {
+    font-size:20px;
+}
+
+/* ABOUT */
+
+#about {
+    height: auto;
+}
+
+#about h3 {
+    letter-spacing:2px;
+}
+
+#about p {
+    letter-spacing: 1px;
+}
+
+#about_left {
+    display: none;
+}
+
+#about_right {
+    width: 80%;
+    justify-content: initial;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#about_right #technologies {
+    margin-left: 0;
+    width: auto;
+}
+
+/* EXPERINENCE */
+
+.experience {
+    height: auto;
+}
+
+#projects_content {
+    grid-template-columns: 1fr;
+}
+
+.experience .content ul {
+    margin-bottom: 30px;
+}
+
+.experience .content ul li .experience-content {
+    width: 70vw;
+}
+
+.experience .content ul li .experience-content h2 {
+    font-size: 20px;
+}
+
+.experience .content ul li .experience-content .experience-time {
+    font-size: 15px;
+}
+
+.experience .content ul li .experience-content p {
+    font-size: 15px;
+}
+
+/* CONTACT */
+
+.g-recaptcha {
+    transform: scale(0.50);
+    -webkit-transform: scale(0.70);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+}
+
+#contact #form_contact form button {
+    width:150px;
+}
+
+/* FOOTER */
+
+#footer #reseaux a img {
+    width:30px;
+}
+
+/* PROJECTS */
+
+#project_text_content {
+    padding:20px 18px 38px 18px;
+    width:75%;
+}
