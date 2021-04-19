@@ -181,7 +181,23 @@ a:hover {
 }
 
 #home_left_content {
-    margin: 150px 0% 90px 20%;
+    margin: 150px 0% 90px 0;
+    animation-duration: 1s;
+    animation-name: slideinhomeleft;
+    margin-left:20%;
+
+}
+
+@keyframes slideinhomeleft {
+  from {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 20%;
+    width: 100%;
+  }
 }
 
 #home p {
@@ -244,7 +260,21 @@ a:hover {
 
 #home_right>img {
     width: 570px;
+    animation-duration: 1s;
+    animation-name: slideinhomeimg;
+    margin-left:5%;
+}
+
+@keyframes slideinhomeimg {
+  from {
+    margin-left: 40%;
+    width:570px;
+  }
+
+  to {
     margin-left: 5%;
+    width:570px;
+  }
 }
 
 /* ABOUT */

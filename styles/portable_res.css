@@ -18,6 +18,18 @@
     width:80%;
 }
 
+@keyframes slideinhomeimg {
+  from {
+    margin-left: 40%;
+    width:80%;
+  }
+
+  to {
+    margin-left: 5%;
+    width:80%;
+  }
+}
+
 /* ABOUT */
 
 #about_left>img {
