@@ -357,8 +357,7 @@ include_once('includes/header.php');
                         <?php
                         if (isset($_GET['action']) && !empty($_GET['action'])) {
                             if ($_GET['action'] === 'successMail') {
-                                //echo '<p class="mailMessage" id="success">Votre message à bien été envoyé</p>';
-                                echo 'La fonction mail n\'a pas encore été implémentée, veuillez réessayer d\'ici quelques jours.';
+                                echo '<p class="mailMessage" id="success">Votre message à bien été envoyé, je vous re-contacte au plus vite !</p>';
                             } else {
                                 echo '<p class="mailMessage" id="error">Erreur, votre message n\'a pas pu être envoyé !</p>';
                             }
