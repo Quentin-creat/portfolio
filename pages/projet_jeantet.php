@@ -28,7 +28,7 @@ include_once('../includes/header.php');
             J'ai également dû :<br>
             - Étudier le SEO pour optimiser nos résultats.<br>
             - Effectuer des sauvegardes des bases de données et des fichiers wordpress en cas de problème.<br>
-            - Fournir un plan de reprise d'activité si un problème devait survenir après mon départ dans l'entreprise.<br>
+            - Fournir un PRA (plan de reprise d'activité) si un problème devait survenir après mon départ dans l'entreprise.<br>
             - Gérer mon Versionning grâce à Git et Github, pour garder une trace de mon code.
         </p>
     </div>

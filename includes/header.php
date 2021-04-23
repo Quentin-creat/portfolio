@@ -59,7 +59,7 @@
                         <a class="navBtn" href="../#about">À&#127;propos</a>
                     </li>
                     <li>
-                        <a class="navBtn" href="../#experience">Experience</a>
+                        <a class="navBtn" href="../#experience">Experiences</a>
                     </li>
                     <li>
                         <a class="navBtn" href="../#skills">Compétences</a>
