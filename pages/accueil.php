@@ -50,37 +50,56 @@ include_once('includes/header.php');
                 <div id="technologies">
                     <h3>Mes outils :</h3>
                     <div id="tech_images">
-                        <div class="technologie">
-                            <img src="../img/SkillsSvg/visual-studio-code.svg" alt="Logo de l'IDE Visual studio code">
+                        <div>
+                            <a href="https://code.visualstudio.com/">
+                                <img src="../img/SkillsSvg/visual-studio-code.svg" alt="Logo de l'IDE Visual studio code">
+                            </a>
                         </div>
-                        <div class="technologie first_tech">
+                        <div>
+                            <a href="https://git-scm.com/">
                             <img src="../img/SkillsSvg/git.svg" alt="Logo du logiciel de gestion de version Git">
+                            </a>
                         </div>
-                        <div class="technologie">
+                        <div>
+                            <a href="https://github.com/">
                             <img src="../img/SkillsSvg/github.svg" alt="Logo de la plateforme GitHub">
+                            </a>
                         </div>
-                        <div class="technologie first_tech">
+                        <div>
+                            <a href="https://fr.wikipedia.org/wiki/Structured_Query_Language">
                             <img src="../img/SkillsSvg/sql.svg" alt="Logo du langage SQL">
+                            </a>
                         </div>
-                        <div class="technologie">
+                        <div>
+                            <a href="https://wordpress.com/fr/">
                             <img src="../img/SkillsSvg/wordpress.svg" alt="Logo de Wordpress">
+                            </a>
                         </div>
-                        <div class="technologie">
+                        <div>
+                            <a href="https://netbeans.apache.org/">
                             <img src="../img/SkillsSvg/netbeans.png" alt="Logo de netbeans">
+                            </a>
                         </div>
-                        <div class="technologie">
-                            <img src="../img/SkillsSvg/trello.svg" alt="Logo de MySql WorkBench">
+                        <div>
+                            <a href="https://trello.com/">
+                            <img src="../img/SkillsSvg/trello.svg" alt="Logo de Trello">
+                            </a>
                         </div>
-                        <div class="technologie">
-                            <img src="../img/SkillsSvg/affinity.svg" alt="Logo de MySql WorkBench">
+                        <div>
+                            <a href="https://affinity.serif.com/fr/designer/">
+                            <img src="../img/SkillsSvg/affinity.svg" alt="Logo de Affinity Designer">
+                            </a>
                         </div>
-                        <div class="technologie">
-                            <img src="../img/SkillsSvg/figma.svg" alt="Logo de MySql WorkBench">
+                        <div>
+                            <a href="https://www.figma.com/">
+                            <img src="../img/SkillsSvg/figma.svg" alt="Logo de Figma">
+                            </a>
                         </div>
-                        <div class="technologie">
-                            <img src="../img/SkillsSvg/mysql.svg" alt="Logo de MySql WorkBench">
+                        <div>
+                            <a href="https://www.mysql.com/fr/">
+                            <img src="../img/SkillsSvg/mysql.svg" alt="Logo de MySql">
+                            </a>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -349,7 +368,7 @@ include_once('includes/header.php');
                         <div class="input">
                             <label for="email_content"></label> <textarea id="email_content" name="content" required placeholder="Message" rows="13" cols="70"></textarea>
                         </div>
-                        <label for="g-recaptcha-response"></label> 
+                        <label for="g-recaptcha-response"></label>
                         <div class="g-recaptcha" data-sitekey="6LepOaQaAAAAAOqCHTvLBTADlHyrS7iudg9k6iRV">
 
                         </div>
